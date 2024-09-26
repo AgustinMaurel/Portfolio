@@ -6,8 +6,9 @@ export default function Home() {
   return (
     <div className="flex bg-black w-full  items-center justify-center min-h-screen font-[family-name:var(--font-geist-sans)]">
       <div className="w-full max-w-screen-lg">
-      <Skills/>
       <About/>
+      <Skills/>
+
       <Recomendaciones/>
       
       </div>
