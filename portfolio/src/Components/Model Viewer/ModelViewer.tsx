@@ -10,7 +10,7 @@
 
             <Canvas style={{ height: '100%', width: '100%' }}>
                 <Environment preset='apartment'/>
-                <OrbitControls autoRotate={true}/>
+                <OrbitControls enableZoom={false} autoRotate={true}/>
                 <Wizard/>
             </Canvas>
 
