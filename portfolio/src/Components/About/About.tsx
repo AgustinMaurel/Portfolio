@@ -6,9 +6,10 @@ export default function About(){
 
     
     return (
-        <div id="About" className="grid w-full h-full min-h-screen grid-flow-col  pt-14 bg-amber-300">
+        <div id="About" className="flex  w-full h-full min-h-screen max-w-screen-lg pt-14 bg-slate-500 bg-gradient-to-r from-slate-500">
+                    <ModelViewer />
                      <Description/>
-                     <ModelViewer />
+                     
              </div>
 
     )

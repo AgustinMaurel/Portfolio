@@ -1,6 +1,7 @@
 
 import { useGLTF } from '@react-three/drei'
 
+
 export function Wizard() {
   const { nodes, materials } = useGLTF('/wizard.glb')
 
@@ -13,7 +14,8 @@ export function Wizard() {
           receiveShadow
           geometry={nodes.Cube002_0.geometry} 
           material={materials.color}
-          scale={[1.045, 1.045, 1.12]} 
+          scale={[0.245, 0.245, 0.212]}
+          
           
         />
       </group>
