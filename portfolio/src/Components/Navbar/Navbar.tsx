@@ -14,8 +14,7 @@ export default function Navbar(){
         <a className="flex justify-start gap-2 items-center w-full" href="">
             <FaHome/>
             <span  className="hover:text-blue-600 transition-all duration-300 ease-in-out scroll-smooth">
-            Inicio
-
+              Inicio
             </span>
             </a>
         <ul className="flex items-center justify-between w-full ">
@@ -26,8 +25,7 @@ export default function Navbar(){
             <a className="hover:text-blue-600 transition-all duration-300 ease-in-out scroll-smooth" href="#Recomendaciones">Recomendaciones</a>
             <GrLanguage/>
         </ul>
-        
-        
+    
     </div>
 </nav>
     )

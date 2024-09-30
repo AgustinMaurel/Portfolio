@@ -1,17 +1,22 @@
-'use client';
 
-import { Canvas, useLoader } from '@react-three/fiber';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+ import { OrbitControls, Environment } from '@react-three/drei';
+ import { Canvas } from '@react-three/fiber';
+ import { Wizard } from '../Wizard/Wizard';
 
-export const ModelViewer: React.FC = () => {
-    const myModel = useLoader(GLTFLoader, '/wizard.glb');
+ export const ModelViewer: React.FC = () => {
     
-    return (
-        
-        <Canvas style={{ height: '500px', width: '100%' }}>
-            <pointLight position={[-10, -10, -10]} color="#48cc90" intensity={5000} />
-            <pointLight position={[10, 10, 10]} color="#36e2e2" intensity={5000} />
-            <primitive object={myModel.scene} />
-        </Canvas>
-    );
-};
+         return (
+            <div className='flex w-full h full items-center justify-center '>
+
+            <Canvas style={{ height: '100%', width: '100%' }}>
+                <Environment preset='apartment'/>
+                <OrbitControls autoRotate={true}/>
+                <Wizard/>
+            </Canvas>
+
+
+            </div>
+     
+         );
+
+        };
