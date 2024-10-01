@@ -6,14 +6,14 @@
  export const ModelViewer: React.FC = () => {
     
          return (
-            <div id="ViewerContainer" className='flex  items-center justify-center  w-full'>
+            <div id="ViewerContainer" className='flex items-center justify-center  w-full'>
 
             <Canvas
              id='Canvas'
-             className='flex  w-full min-h-screen items-center justify-center bg-slate-500' 
+             className='flex h-full w-full min-h-screen items-center justify-center ' 
             
              >
-                <Environment preset='warehouse'/>
+                <Environment preset='forest'/>
                 <OrbitControls enableZoom={false} autoRotate={true}/>
                 <Wizard/>
             </Canvas>
