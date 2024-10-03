@@ -1,3 +1,4 @@
+'use client'
 import { ButtonNavbarProps } from '@/types'
 import Link from 'next/link'
 import React from 'react'
