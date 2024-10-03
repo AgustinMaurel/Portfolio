@@ -1,7 +1,7 @@
 'use client'
 
 import { FaHome } from "react-icons/fa";
-
+import Link from "next/link";
 import { GrLanguage } from "react-icons/gr";
 
 export default function Navbar(){
@@ -18,11 +18,11 @@ export default function Navbar(){
             </span>
             </a>
         <ul className="flex  items-center justify-between w-full ">
-            <a className="hover:text-ecru transition-all duration-300 ease-in-out scroll-smooth" href="#About">About</a>
-            <a className="hover:text-ecru transition-all duration-300 ease-in-out scroll-smooth" href="#Skills">Skills</a>
-            <a className="hover:text-ecru transition-all duration-300 ease-in-out scroll-smooth" href="">Rock</a>
-            <a className="hover:text-ecru transition-all duration-300 ease-in-out scroll-smooth" href="">3D</a>
-            <a className="hover:text-ecru transition-all duration-300 ease-in-out scroll-smooth" href="#Recomendaciones">Recomendaciones</a>
+            <Link className="hover:text-ecru transition-all duration-500 ease-in-out scroll-smooth" href="#About">About</Link>
+            <Link className="hover:text-ecru transition-all duration-500 ease-in-out scroll-smooth" href="#Skills">Skills</Link>
+            <Link className="hover:text-ecru transition-all duration-500 ease-in-out scroll-smooth" href="">Rock</Link>
+            <Link className="hover:text-ecru transition-all duration-500 ease-in-out scroll-smooth" href="">3D</Link>
+            <Link className="hover:text-ecru transition-all duration-500 ease-in-out scroll-smooth" href="#Recomendaciones">Recomendaciones</Link>
             <GrLanguage
             className="hover:text-ecru"
             

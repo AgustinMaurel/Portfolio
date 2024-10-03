@@ -1,6 +1,6 @@
 import Skills from "@/Components/Skills/Skills";
-import Recomendaciones from "@/Components/Recomendaciones/Recomendaciones";
 import About from "@/Components/About/About";
+import Recommendations from "@/Components/Recommendations/Recommendations";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       <div id='PageDiv' className="flex flex-col h-full w-full max-w-screen-lg">
         <About/>
         <Skills/>
-        <Recomendaciones/>
+        <Recommendations/>
       
       </div>
     </div>

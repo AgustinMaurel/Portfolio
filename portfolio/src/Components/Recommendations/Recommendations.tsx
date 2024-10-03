@@ -1,4 +1,4 @@
-export default function Recomendaciones(){
+export default function Recommendations(){
     
 
         return(
