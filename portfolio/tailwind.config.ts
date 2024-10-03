@@ -1,4 +1,7 @@
+
+
 import type { Config } from "tailwindcss";
+
 
 const config: Config = {
   content: [
@@ -17,8 +20,17 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      buttonNavbar:{
+      'width': "30px",
+      'bg': 'red',  
+    }
+      }
     },
-  },
-  plugins: [],
+  
+  
+  
+    
+  
+  
 };
 export default config;
