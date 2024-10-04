@@ -5,18 +5,21 @@ import { useEffect, useState } from "react";
 import CustomButtonNavbar from "../CustomButtonNavbar/CustomButtonNavbar";
 import Link from "next/link";
 import LangSwitcher from "../LangSwitcher/LangSwitcher";
+import { useTranslations } from "next-intl";
 
 
 export default function Navbar(){
 
+    const t =useTranslations()
+    
     const [isClient, setIsClient]= useState<boolean>(false)
     useEffect(()=>{
         setIsClient(true)
     },[])
     return (
-        <nav className="flex fixed top-0 z-50 justify-center items-center text-lg  h-14 bg-licor w-full border-none">
+        <nav className="flex fixed top-0 z-50 justify-center items-center text-lg font-semibold  h-14 bg-licor w-full border-none">
                 
-            {isClient?<div className="flex justify-between items-center h-full w-full max-w-screen-lg ">
+            {isClient?<div className="flex justify-between items-center h-full w-full max-w-screen-2xl ">
 
                     <div  className=" flex h-full justify-center items-center gap-2 CustomButtonNavbar hover:cursor-pointer" >
                     <Link href={"/#About"}>
@@ -29,9 +32,9 @@ export default function Navbar(){
                 
 
                 <ul className="flex  items-center justify-end gap-4 w-full ">
-                    <CustomButtonNavbar title={"About"} href="#About" styles="CustomButtonNavbar"/>
-                    <CustomButtonNavbar title={"Skills"} href="#Skills" styles="CustomButtonNavbar"/>
-                    <CustomButtonNavbar title={"Recommendations"} href="#Recommendations" styles="CustomButtonNavbar"/>
+                    <CustomButtonNavbar title={t("Navbar.about")} href="#About" styles="CustomButtonNavbar"/>
+                    <CustomButtonNavbar title={t("Navbar.skills")} href="#Skills" styles="CustomButtonNavbar"/>
+                    <CustomButtonNavbar title={t("Navbar.projects")} href="#Recommendations" styles="CustomButtonNavbar"/>
                     
                    <LangSwitcher/>
                     
