@@ -33,7 +33,7 @@ const LangSwitcher = () => {
         </button>
         
         {flag?
-        <div onMouseLeave={()=>{setFlag(false)}} className={flag?'flex flex-col items-center text-sm justify-center border-licor w-[70px] gap-2 border-2 rounded-tl rounded-b bg-ecru text-licor p-1 absolute mt-20 mr-10 ':'sr-only'}id="">
+        <div onMouseLeave={()=>{setFlag(false)}} className={flag?'flex flex-col items-center text-sm justify-center border-licor w-[70px] gap-2 border-2 rounded-tl rounded-b bg-ecru text-licor p-1 absolute mt-20 mr-12 ':'sr-only'}id="">
             <button className="CustomButtonNavbar hover:font-bold hover:text-licor" onClick={onSelect}  value="es">Spanish</button>
             <button className="CustomButtonNavbar hover:font-bold hover:text-licor" onClick={onSelect} value="en">English</button>
         </div>: ""}
