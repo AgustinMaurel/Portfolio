@@ -1,4 +1,14 @@
 {
-    "Index":{
-        "title": "Hello world !"    }
+    "Navbar":{
+        "home":"Home",
+        "about":"About",
+        "skills":"Skills",
+        "projects": "Projects"
+    },
+    "About":{
+        "pretitle":"I'm",
+        "title": "Agustin Maurel",
+        "subtitle": "Front-end Developer",
+        "description": "I am a front-end developer with full stack knowledge, but with a lot of inclination and love for front-end. I like to work in a team, share ideas to learn and develop a product that contributes to solve any problem or need of people. "
+     }
 }
