@@ -5,7 +5,7 @@ import { locales } from './locales';
 export default getRequestConfig(async ({locale}) => {
     
   // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale as "string")) notFound();
+  if (!locales.includes(locale as string)) notFound();
     
   return {
     
