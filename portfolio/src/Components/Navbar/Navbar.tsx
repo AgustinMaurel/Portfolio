@@ -1,10 +1,10 @@
 'use client'
 
 import { FaHome } from "react-icons/fa";
-import { GrLanguage } from "react-icons/gr";
 import { useEffect, useState } from "react";
 import CustomButtonNavbar from "../CustomButtonNavbar/CustomButtonNavbar";
 import Link from "next/link";
+import LangSwitcher from "../LangSwitcher/LangSwitcher";
 
 
 export default function Navbar(){
@@ -33,10 +33,9 @@ export default function Navbar(){
                     <CustomButtonNavbar title={"Skills"} href="#Skills" styles="CustomButtonNavbar"/>
                     <CustomButtonNavbar title={"Recommendations"} href="#Recommendations" styles="CustomButtonNavbar"/>
                     
-                    <GrLanguage
-                    className="CustomButtonNavbar hover:cursor-pointer"
+                   <LangSwitcher/>
                     
-                    />
+                    
                 </ul>
             
             </div>: ''}
