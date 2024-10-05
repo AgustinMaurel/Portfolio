@@ -9,3 +9,12 @@ export interface ButtonNavbarProps {
     handleClick?: MouseEventHandler<HTMLAnchorElement>
 
 }
+
+export interface ExperienceCard {
+    key: number,
+    title: string,
+    description : string,
+    tecs : string[],
+    begin: string,
+    final: string
+}

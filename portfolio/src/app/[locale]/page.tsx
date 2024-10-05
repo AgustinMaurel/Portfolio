@@ -1,5 +1,6 @@
 import Skills from "@/Components/Skills/Skills";
 import About from "@/Components/About/About";
+import Experience from "@/Components/Experience/Experience";
 import Recommendations from "@/Components/Recommendations/Recommendations";
 import { unstable_setRequestLocale } from "next-intl/server";
 
@@ -14,6 +15,7 @@ export default function Home({params:{locale}}:Readonly<{params: {locale:string}
             </div>
 
         <div className="flex flex-col items-end justify-center w-full max-w-screen-2xl">
+          <Experience/>
         <Skills/>
         <Recommendations/>
 
