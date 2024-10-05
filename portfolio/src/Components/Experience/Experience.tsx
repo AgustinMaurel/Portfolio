@@ -32,14 +32,14 @@ const Experience = () => {
 
     < div id="About" className="flex flex-col w-full h-full min-h-screen max-w-screen-md gap-20 pt-40 mt-14 justify-start items-center ">
 
-        <div className='flex flex-col gap-2 w-10/12 items-center justify-center '>
-        <text>{t("Experience.description")} </text>
-        <text>{t("Experience.description2")} </text>
+        <div className='flex flex-col  w-10/12 items-center justify-center '>
+            <p>{t("Experience.description")} </p>
+            <p>{t("Experience.description2")} </p>
         </div>
 
         <h1 className='font-semibold text-xl'>{t("Experience.title")}</h1>
 
-        <div id='CardsContainer' className='flex flex-col w-11/12 gap-2 justify-center items-center'>
+        <div id='CardsContainer' className='flex flex-col w-10/12 gap-2 justify-center items-center'>
             {
             arrayExperienceCards?.map((cardData)=>{
                 return (
