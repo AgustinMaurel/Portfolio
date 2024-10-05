@@ -17,7 +17,7 @@ export default function Navbar(){
         setIsClient(true)
     },[])
     return (
-        <nav className="flex fixed top-0 z-50 justify-center items-center text-lg font-semibold  h-14 bg-licor w-full border-none">
+        <nav className="flex fixed top-0 z-50 justify-center items-center text-lg font-semibold  h-14 bg-transparent w-full border-none">
                 
             {isClient?<div className="flex justify-between items-center h-full w-full max-w-screen-2xl ">
 
