@@ -6,7 +6,7 @@
  export const ModelViewer: React.FC = () => {
     
          return (
-            <div id="ViewerContainer" className='flex items-center  justify-center h-full w-full   '>
+            <div id="ViewerContainer" className='flex items-center   justify-center h-full w-full   '>
 
             <Canvas
              id='Canvas'
