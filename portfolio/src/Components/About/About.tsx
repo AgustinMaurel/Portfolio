@@ -6,7 +6,7 @@ export default function About(){
 
     
     return (
-        <div id="About" className="  flex flex-col fixed items-center mt-14 max-w-screen-md justify-center  lg:grid lg:grid-cols-2       ">
+        <div id="About" className="  flex flex-col fixed -top-32  items-start h-[500px] justify-start mt-14 max-w-screen-md   lg:grid lg:grid-cols-2       ">
             
              
 
