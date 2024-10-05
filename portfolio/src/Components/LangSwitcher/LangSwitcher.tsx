@@ -24,6 +24,9 @@ const LangSwitcher = () => {
 
     const handleClick = ()=>{
         setFlag(true)
+        setTimeout(() => {
+            setFlag(false)
+        }, 5000);
     }
   return (
     <label className='flex h-full items-center justify-center'>

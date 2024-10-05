@@ -45,7 +45,7 @@ export default async function RootLayout({
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </head>
       <body
-        className={`bg-black text-white ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`flex justify-center items-center bg-black text-white ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
 
