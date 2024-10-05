@@ -17,7 +17,7 @@ const LangSwitcher = () => {
 
         const finalValue  = event.target as HTMLButtonElement
         const nextLang = finalValue.value
-        router.replace(nextLang)
+        router.replace(nextLang, {scroll:false})
         setFlag(false)
 
         }
