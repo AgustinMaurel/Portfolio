@@ -18,7 +18,7 @@ export default function Navbar(){
     const [section, setSection] = useState<string>("#About")
 
     const handleSection = (e : MouseEvent<HTMLAnchorElement> ) =>{
-        console.log(e.target.hash)
+     
         setSection(e.target.hash)
     }
 
