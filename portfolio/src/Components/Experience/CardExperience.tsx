@@ -12,7 +12,7 @@ const CardExperience = ({title, description, begin, final, tecs}:ExperienceCard)
                 <span>{final}</span>
         </div>
 
-        <div className='flex flex-col w-full  gap-5 justify-center items-center'>
+        <div className='flex flex-col w-full  gap-5 justify-star items-start'>
 
                 <h1 className='font-semibold text-lg'>{title}</h1>
 
