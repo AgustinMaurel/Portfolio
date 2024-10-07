@@ -6,7 +6,7 @@ export default function About(){
 
     
     return (
-        <div id="Intro" className=" cursor-all-scroll flex flex-col fixed -top-56  items-start h-[500px] justify-start pt-20 max-w-screen-md   lg:grid lg:grid-cols-2       ">
+        <div id="Intro" className=" cursor-all-scroll flex flex-col fixed -top-72 items-start h-[500px] justify-start pt-20 max-w-screen-md   lg:grid lg:grid-cols-2       ">
             
              
 

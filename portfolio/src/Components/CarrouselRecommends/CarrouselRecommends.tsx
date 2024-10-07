@@ -53,13 +53,13 @@ export default function CarrouselRecommends ({ slidesOnScreen=1, options}: Carro
 
 
   return (
-    <div className="flex flex-col w-10/12 h-full gap-2 items-center rounded-md  justify-center  overflow-hidden">
+    <div className="flex flex-col w-10/12 h-full gap-2 items-center rounded-md p-1 justify-center  overflow-hidden">
       <h1 className='text-xl font-semibold'>Recommendations</h1>
       <div className="w-full overflow-hidden" ref={emblaRef}>
-        <div className="flex min-h-fit w-full">
+        <div className="flex min-h-fit gap-2 w-full">
           {allRefs.map((item) => (
             <div
-              className={`flex w-full min-w-0 flex-none items-center justify-center ${slidesOnScreen > 1 ? 'mr-4 md:w-[calc(50%-8px)]' : 'mr-1'}`}
+              className={`flex w-full min-w-0 flex-none items-center justify-center `}
               key={item.key}
             >
               <CustomCardRecommend description={item.description} key={item.key} img={item.img} title={item.title} subtitle={item.subtitle}/>
