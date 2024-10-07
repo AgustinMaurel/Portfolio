@@ -3,28 +3,29 @@ import React from 'react'
 import { useTranslations } from 'next-intl'
 import { ExperienceCard } from '@/types'
 import CardExperience from './CardExperience'
+import CarrouselRecommends from '../CarrouselRecommends/CarrouselRecommends'
 
 const Experience = () => {
 
-    const t = useTranslations()
+const t = useTranslations()
 
- const arrayExperienceCards : ExperienceCard[] = [
-    {
-        title: t("Experience.Card1.title"),
-        key: 1,
-    description : t("Experience.Card1.description"),
-    tecs : ["TailwindCSS", "ThreeJS", "Web3", "Firebase", "Moralis"],
-    begin: t("Experience.Card1.begin"),
-    final: t("Experience.Card1.final")
-        },
-    {
-            title: t("Experience.Card2.title"),
-            key: 2,
-    description : t("Experience.Card2.description"),
-    tecs : ["Scrum", "Git", "React", "Express",],
-    begin: t("Experience.Card2.begin"),
-    final: t("Experience.Card2.final")
-        },
+const arrayExperienceCards : ExperienceCard[] = [
+{
+    title: t("Experience.Card1.title"),
+    key: 1,
+description : t("Experience.Card1.description"),
+tecs : ["TailwindCSS", "ThreeJS", "Web3", "Firebase", "Moralis"],
+begin: t("Experience.Card1.begin"),
+final: t("Experience.Card1.final")
+    },
+{
+        title: t("Experience.Card2.title"),
+        key: 2,
+description : t("Experience.Card2.description"),
+tecs : ["Scrum", "Git", "React", "Express",],
+begin: t("Experience.Card2.begin"),
+final: t("Experience.Card2.final")
+    },
 
 
 ]
@@ -56,6 +57,7 @@ const Experience = () => {
             })
             }
         </div>
+        <CarrouselRecommends slidesOnScreen={1} key={"2"} options={{}} />
 
      </div>
   )

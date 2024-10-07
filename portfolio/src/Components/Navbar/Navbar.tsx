@@ -54,9 +54,9 @@ export default function Navbar(){
                             <div className={section.includes("Skills") ? activeClass :offClass}/>
                             <CustomButtonNavbar handleClick={handleSection} title={t("Navbar.skills")} href="#Skills" styles="CustomButtonNavbar hover:font-semibold"/>
                         </div>
-                        <div className={section.includes("Recommendations")? "flex w-full justify-start gap-2 items-center":"flex w-full opacity-40 justify-start gap-2 items-center"}>
-                            <div className={section.includes("Recommendations") ? activeClass : offClass}/>
-                             <CustomButtonNavbar handleClick={handleSection} title={t("Navbar.projects")} href="#Recommendations" styles="CustomButtonNavbar hover:font-semibold"/>
+                        <div className={section.includes("Projects")? "flex w-full justify-start gap-2 items-center":"flex w-full opacity-40 justify-start gap-2 items-center"}>
+                            <div className={section.includes("Projects") ? activeClass : offClass}/>
+                             <CustomButtonNavbar handleClick={handleSection} title={t("Navbar.projects")} href="#Projects" styles="CustomButtonNavbar hover:font-semibold"/>
                         </div>
                        
                    <LangSwitcher/>
