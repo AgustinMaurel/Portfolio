@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const CustomButtonNavbar = ({title, href, styles, handleClick}:ButtonNavbarProps) => {
+  
   return (
     <Link 
       onClick={handleClick}

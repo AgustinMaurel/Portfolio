@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/Components/Navbar/Navbar";
+
 import Footer from "@/Components/Footer/Footer";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -49,7 +49,7 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider messages={messages}>
 
-          <Navbar/>
+          
           {children}
           <Footer/>
 
