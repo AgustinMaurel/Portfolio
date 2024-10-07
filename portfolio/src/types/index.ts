@@ -24,5 +24,5 @@ export interface CardRecommend {
     title: string,
     subtitle: string,
     description: string,
-    key:number
+    
 }

@@ -18,6 +18,7 @@ export default function Navbar(){
     const [section, setSection] = useState<string>("#About")
 
     const handleSection = (e : MouseEvent<HTMLAnchorElement> ) =>{
+        console.log(e.target.hash)
         setSection(e.target.hash)
     }
 
@@ -48,6 +49,10 @@ export default function Navbar(){
                         <div className={section.includes("About")? "flex w-full justify-start gap-2 items-center":"flex w-full opacity-40 justify-start gap-2 items-center"}>
                             <div className={section.includes("About") ? activeClass : offClass}/>
                              <CustomButtonNavbar handleClick={handleSection}  title={t("Navbar.about")} href="#About" styles="CustomButtonNavbar hover:font-semibold"/>
+                        </div>
+                        <div className={section.includes("Recommendations")? "flex w-full justify-start gap-2 items-center":"flex w-full opacity-40 justify-start gap-2 items-center"}>
+                            <div className={section.includes("Recommendations") ? activeClass : offClass}/>
+                             <CustomButtonNavbar handleClick={handleSection}  title={t("Navbar.recommendations")} href="#Recommendations" styles="CustomButtonNavbar hover:font-semibold"/>
                         </div>
 
                         <div className={section.includes("Skills")? "flex w-full justify-start gap-2 items-center":"flex w-full opacity-40 justify-start gap-2 items-center"}>

@@ -5,7 +5,7 @@ export default function Description(){
     const t = useTranslations()
  
     return (
-        <div id="description" className=" flex flex-col h-full max-h-screen min-h-screen w-full relative justify-start items-start text-white lg:pb-80  ">
+        <div id="description" className=" flex flex-col h-full max-h-screen min-h-screen w-full relative justify-start items-start text-white lg:pb-96  ">
 
 
             <div className="flex flex-col  w-full h-full justify-center items-start ">

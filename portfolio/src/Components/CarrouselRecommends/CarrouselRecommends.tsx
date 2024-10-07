@@ -6,6 +6,7 @@ import useEmblaCarousel from "embla-carousel-react"
 import { CardRecommend } from "@/types"
 import CustomCardRecommend from "../CustomCardRecommend/CustomCardRecommend"
 import Autoplay from "embla-carousel-autoplay"
+import { useTranslations } from 'next-intl'
 
 type CarrouselProps = {
   slidesOnScreen :number,
@@ -13,31 +14,10 @@ type CarrouselProps = {
   
 }
 
-const allRefs : CardRecommend[] =[
-  {
-    description:"He was a valuable team member, possessing expertise and a proactive approach to problem-solving. His teamwork and effective communication with the UX team helped reach our goals.",
-    img: "/img1.jpg",
-    subtitle: "Diseñador de Producto, Gráfico & Multimedial | Tutor",
-    title: " Fernando Gabriel Villabrille",
-    key:1
-  },
-  {
-    description:"He was a valuable team member, possessing expertise and a proactive approach to problem-solving. His teamwork and effective communication with the UX team helped reach our goals.",
-    img: "/img2.jpg",
-    subtitle: "Diseñador de Producto, Gráfico & Multimedial | Tutor",
-    title: " Fernando Gabriel Villabrille",
-    key:2
-  },
-  {
-    description:"He was a valuable team member, possessing expertise and a proactive approach to problem-solving. His teamwork and effective communication with the UX team helped reach our goals.",
-    img: "/img3.jpg",
-    subtitle: "Diseñador de Producto, Gráfico & Multimedial | Tutor",
-    title: " Fernando Gabriel Villabrille",
-    key:3
-  },
-  
-]
+
 export default function CarrouselRecommends ({ slidesOnScreen=1, options}: CarrouselProps) {
+
+  const t = useTranslations()
 
   const [emblaRef, emblaApi]= useEmblaCarousel({
     ...options,
@@ -48,13 +28,31 @@ export default function CarrouselRecommends ({ slidesOnScreen=1, options}: Carro
   [Autoplay()],
 )
 
+const allRefs : CardRecommend[] =[
+  {
+    description:t("Recommendations.ref1.description"),
+    img: "/img3.jpg",
+    subtitle: t("Recommendations.ref1.subtitle"),
+    title: t("Recommendations.ref1.title"),
+  },
+  {
+    description:t("Recommendations.ref2.description"),
+    img: "/img2.jpg",
+    subtitle: t("Recommendations.ref2.subtitle"),
+    title: t("Recommendations.ref2.title"),
+  },
+  {
+    description:t("Recommendations.ref3.description"),
+    img: "/img1.jpg",
+    subtitle: t("Recommendations.ref3.subtitle"),
+    title: t("Recommendations.ref3.title"),
+  }
   
-
-
+]
 
   return (
     <div className="flex flex-col w-10/12 h-full gap-2 items-center rounded-md p-1 justify-center  overflow-hidden">
-      <h1 className='text-xl font-semibold'>Recommendations</h1>
+      
       <div className="w-full overflow-hidden" ref={emblaRef}>
         <div className="flex min-h-fit gap-2 w-full">
           {allRefs.map((item) => (

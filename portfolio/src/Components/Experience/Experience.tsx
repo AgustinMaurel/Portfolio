@@ -31,7 +31,7 @@ final: t("Experience.Card2.final")
 ]
   return (
 
-    < div id="About" className="flex flex-col w-full h-full min-h-screen max-w-screen-md gap-10 justify-center items-center ">
+    < div id="About" className="flex flex-col w-full h-full min-h-screen max-w-screen-md gap-16 justify-center items-start ">
 
         <div className='flex flex-col gap-3  w-10/12 items-center justify-center '>
             <p>{t("Experience.description")} </p>
@@ -40,7 +40,7 @@ final: t("Experience.Card2.final")
 
         <h1 className='font-semibold text-xl'>{t("Experience.title")}</h1>
 
-        <div id='CardsContainer' className='flex flex-col w-10/12 gap-2 justify-center items-center'>
+        <div id='CardsContainer' className='flex flex-col h-full w-10/12 gap-20 justify-between items-center'>
             {
             arrayExperienceCards?.map((cardData)=>{
                 return (
@@ -57,7 +57,7 @@ final: t("Experience.Card2.final")
             })
             }
         </div>
-        <CarrouselRecommends slidesOnScreen={1} key={"2"} options={{}} />
+        
 
      </div>
   )
