@@ -30,9 +30,9 @@ const Experience = () => {
 ]
   return (
 
-    < div id="About" className="flex flex-col w-full h-full min-h-screen max-w-screen-md gap-20 pt-40 mt-14 justify-start items-center ">
+    < div id="About" className="flex flex-col w-full h-full min-h-screen max-w-screen-md gap-20  mt-14 justify-center items-center ">
 
-        <div className='flex flex-col  w-10/12 items-center justify-center '>
+        <div className='flex flex-col gap-3  w-10/12 items-center justify-center '>
             <p>{t("Experience.description")} </p>
             <p>{t("Experience.description2")} </p>
         </div>
