@@ -58,9 +58,9 @@ const allRefs : CardRecommend[] =[
           {allRefs.map((item) => (
             <div
               className={`flex w-full min-w-0 flex-none items-center justify-center `}
-              key={item.key}
+              key={item.title}
             >
-              <CustomCardRecommend description={item.description} key={item.key} img={item.img} title={item.title} subtitle={item.subtitle}/>
+              <CustomCardRecommend description={item.description} key={item.title} img={item.img} title={item.title} subtitle={item.subtitle}/>
             </div>
           ))}
         </div>
