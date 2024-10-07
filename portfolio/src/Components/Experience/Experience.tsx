@@ -33,12 +33,12 @@ final: t("Experience.Card2.final")
 
     < div id="About" className="flex flex-col w-full h-full min-h-screen max-w-screen-md gap-16 justify-center items-start ">
 
-        <div className='flex flex-col gap-3  w-10/12 items-center justify-center '>
+        <div className='flex flex-col gap-3 text-lg w-10/12 items-center justify-center '>
             <p>{t("Experience.description")} </p>
             <p>{t("Experience.description2")} </p>
         </div>
 
-        <h1 className='font-semibold text-xl'>{t("Experience.title")}</h1>
+        <h1 className='font-semibold text-2xl'>{t("Experience.title")}</h1>
 
         <div id='CardsContainer' className='flex flex-col h-full w-10/12 gap-20 justify-between items-center'>
             {
