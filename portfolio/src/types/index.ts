@@ -18,3 +18,11 @@ export interface ExperienceCard {
     begin: string,
     final: string
 }
+
+export interface CardRecommend {
+    img: string,
+    title: string,
+    subtitle: string,
+    description: string,
+    key:number
+}
