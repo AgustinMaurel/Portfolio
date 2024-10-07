@@ -3,7 +3,8 @@
         "home":"Inicio",
         "about":"Sobre mi",
         "skills":"Hablidades",
-        "projects": "Proyectos"
+        "projects": "Proyectos",
+        "recommendations": "Recomendaciones"
     },
     "About":{
         "pretitle":"Soy",
@@ -27,5 +28,24 @@
             "begin":"Nov 2021",
             "final": "Oct 2022"
         }
-     }
+     },
+     "Recommendations":{
+        "title": "",
+        "intro":"",
+        "ref1":{
+            "title":"Tano Bevacqua Cossa",
+            "subtitle":"Founder & CEO of MUSURE",
+            "description":"Maurel es un compañero de equipo increíble. Un desarrollador que siempre quise tener en mi equipo. Un solucionador de problemas. Un pensador ágil. Una persona a la que aprecio mucho y con la que deseo seguir trabajando juntos. Gracias por todo lo que has hecho por el mundo MUSURE y vamos a seguir rockeando el Metaverso."
+        },
+        "ref2":{
+            "title":"Nico Constantin",
+            "subtitle":"Full Stack Developer",
+            "description":"Ha sido un placer trabajar con Agustín en MUSURE world y en otros proyectos con los que trabajamos.Es una persona colaboradora, resolutiva y siempre dispuesta a afrontar nuevos retos y aprender. Además escribe código fácilmente legible, limpio y siempre pensando en la mantenibilidad y escalabilidad."
+        },
+        "ref3":{
+            "title":"Fernando Gabriel Villabrille",
+            "subtitle":"Diseñador de Producto, Gráfico & Multimedial",
+            "description":"Fue un valioso miembro del equipo, con experiencia y un enfoque proactivo para la resolución de problemas. Su trabajo en equipo y su comunicación eficaz con el equipo de UX ayudaron a alcanzar nuestros objetivos."
+        }
+    }
 }
