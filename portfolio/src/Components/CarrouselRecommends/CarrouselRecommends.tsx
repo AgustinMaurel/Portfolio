@@ -66,8 +66,8 @@ const { prevBtnDisabled, nextBtnDisabled, onPrevButtonClick, onNextButtonClick }
   return (
     <div className="flex  w-10/12 h-full gap-2 items-center rounded-md p-1 justify-center  overflow-hidden">
 
-      <PrevButton className='hover- to-ecru' onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
-      
+      <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
+
       <div className="w-full overflow-hidden" ref={emblaRef}>
 
         <div className="flex min-h-fit gap-2 w-full">

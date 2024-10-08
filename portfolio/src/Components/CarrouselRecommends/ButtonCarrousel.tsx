@@ -55,9 +55,9 @@ export const PrevButton: React.FC<PropType> = (props) => {
     <button
       type="button"
       {...props}
-      className="transition-all duration-300 ease-in-out disabled:text-gray-500"
+      className="transition-all hover:text-ecru duration-300 ease-in-out disabled:text-gray-500"
     >
-      <MdKeyboardArrowLeft className="text-xl" />
+      <MdKeyboardArrowLeft className="text-2xl" />
     </button>
   );
 };
@@ -67,9 +67,9 @@ export const NextButton: React.FC<PropType> = (props) => {
     <button
       type="button"
       {...props}
-      className="transition-all duration-300 ease-in-out disabled:text-gray-500"
+      className="transition-all  hover:text-ecru duration-300 ease-in-out disabled:text-gray-500"
     >
-      <MdKeyboardArrowRight className="text-xl" />
+      <MdKeyboardArrowRight className="text-2xl" />
     </button>
   );
 };
