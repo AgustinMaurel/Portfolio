@@ -64,7 +64,7 @@ const { prevBtnDisabled, nextBtnDisabled, onPrevButtonClick, onNextButtonClick }
     usePrevNextButtons(emblaApi, onNavButtonClick);
 
   return (
-    <div className="flex  w-10/12 h-full gap-2 items-center rounded-md p-1 justify-center  overflow-hidden">
+    <div className="flex  w-11/12 h-full gap-2 items-center rounded-md p-1 justify-center  overflow-hidden">
 
       <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
 

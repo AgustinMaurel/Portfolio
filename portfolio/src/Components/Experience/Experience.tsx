@@ -3,7 +3,7 @@ import React from 'react'
 import { useTranslations } from 'next-intl'
 import { ExperienceCard } from '@/types'
 import CardExperience from './CardExperience'
-import CarrouselRecommends from '../CarrouselRecommends/CarrouselRecommends'
+
 
 const Experience = () => {
 
@@ -40,7 +40,7 @@ final: t("Experience.Card2.final")
 
         <h1 className='font-semibold text-2xl'>{t("Experience.title")}</h1>
 
-        <div id='CardsContainer' className='flex flex-col h-full w-10/12 gap-20 justify-between items-center'>
+        <div id='CardsContainer' className='flex flex-col h-full w-11/12 gap-20 justify-between items-center'>
             {
             arrayExperienceCards?.map((cardData)=>{
                 return (
