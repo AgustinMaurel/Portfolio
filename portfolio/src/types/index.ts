@@ -1,5 +1,15 @@
 import { MouseEventHandler } from "react";
 
+
+export type projectCardProps = {
+    title: string,
+    img: string ,
+    alt: string,
+    description: string,
+    techs: string[],
+    url: string
+}
+
 export type Tech =
   | 'Javascript'
   | 'Typescript'
