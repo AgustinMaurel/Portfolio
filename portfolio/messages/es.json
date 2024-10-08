@@ -50,7 +50,18 @@
     },
     "Skills":{
         "title": "Habilidades",
-        "intro": "En mi carrera he aprendido las siguientes habilidades técnicas para el desarrollo de soluciones  y en conjunto también a trabajar en equipo empleando metodologías ágiles y desarrollando mis capacidades interpersonales."
-    }
+        "intro": "En mi carrera he aprendido las siguientes habilidades técnicas para el desarrollo de soluciones  y en conjunto también a trabajar en equipo empleando metodologías ágiles y desarrollando mis capacidades interpersonales.",
+        "hard": "Habilidades Tecnicas",
+        "soft": "Habilidades Blandas",
+        "softSkills":{
+            "teamwork":"Trabajo en equipo",
+            "problemSolving":"Resolucion de problemas",
+            "continuousLearning":"Aprendizaje Continuo",
+            "learningAgility": "Agilidad",
+            "adaptability": "Adaptabilidad",
+            "comunication": "Comunicación"
+            }
+        }
      
-}
+    }  
+     

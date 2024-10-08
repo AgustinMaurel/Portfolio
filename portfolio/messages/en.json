@@ -50,8 +50,18 @@
     },
     "Skills":{
         "title": "Skills",
-        "intro": "In my career I have learned the following technical skills for the development of solutions and overall also to work in a team using agile methodologies and developing my interpersonal skills."
-    }
+        "intro": "In my career I have learned the following technical skills for the development of solutions and overall also to work in a team using agile methodologies and developing my interpersonal skills.",
+        "hard": "Tech Skills",
+        "soft": "Soft Skills",
+        "softSkills":{
+            "teamwork":"Team Work",
+            "comunication": "Comunication",
+            "problemSolving":"Problem solving",
+            "continuousLearning":"Continuous Learning",
+            "learningAgility": "Agility",
+            "adaptability": "Adaptability"
+         }
+        }
      
 
 }
