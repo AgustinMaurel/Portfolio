@@ -1,5 +1,26 @@
 import { MouseEventHandler } from "react";
 
+export type Tech =
+  | 'Javascript'
+  | 'Typescript'
+  | 'MongoDB'
+  | 'React'
+  | 'React Native'
+  | 'NextJS'
+  | 'NodeJS'
+  | 'TailwindCSS'
+  | 'PostgreSQL'
+  | 'Azure'
+  | 'Firebase'
+  | 'Redux'
+  | 'GIT'
+  | 'ThreeJs'
+  | 'ExpressJS'
+  | 'CSS'
+  | 'Web3'
+  | 'Scrum'
+  | 'Lean'
+  | 'HTML';
 
 
 export interface ButtonNavbarProps {
