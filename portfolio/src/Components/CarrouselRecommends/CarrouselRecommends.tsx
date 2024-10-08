@@ -17,7 +17,7 @@ type CarrouselProps = {
 
 export default function CarrouselRecommends ({ slidesOnScreen=1, options}: CarrouselProps) {
 
-  const t = useTranslations()
+  const t = useTranslations("Recommendations")
 
   const [emblaRef, emblaApi]= useEmblaCarousel({
     ...options,
@@ -30,22 +30,22 @@ export default function CarrouselRecommends ({ slidesOnScreen=1, options}: Carro
 
 const allRefs : CardRecommend[] =[
   {
-    description:t("Recommendations.ref1.description"),
+    description:t("ref1.description"),
     img: "/img3.jpg",
-    subtitle: t("Recommendations.ref1.subtitle"),
-    title: t("Recommendations.ref1.title"),
+    subtitle: t("ref1.subtitle"),
+    title: t("ref1.title"),
   },
   {
-    description:t("Recommendations.ref2.description"),
+    description:t("ref2.description"),
     img: "/img2.jpg",
-    subtitle: t("Recommendations.ref2.subtitle"),
-    title: t("Recommendations.ref2.title"),
+    subtitle: t("ref2.subtitle"),
+    title: t("ref2.title"),
   },
   {
-    description:t("Recommendations.ref3.description"),
+    description:t("ref3.description"),
     img: "/img1.jpg",
-    subtitle: t("Recommendations.ref3.subtitle"),
-    title: t("Recommendations.ref3.title"),
+    subtitle: t("ref3.subtitle"),
+    title: t("ref3.title"),
   }
   
 ]

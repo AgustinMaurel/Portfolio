@@ -7,24 +7,24 @@ import CardExperience from './CardExperience'
 
 const Experience = () => {
 
-const t = useTranslations()
+const t = useTranslations("Experience")
 
 const arrayExperienceCards : ExperienceCard[] = [
 {
-    title: t("Experience.Card1.title"),
+    title: t("Card1.title"),
     key: 1,
-description : t("Experience.Card1.description"),
+description : t("Card1.description"),
 tecs : ["TailwindCSS", "ThreeJS", "Web3", "Firebase", "Moralis"],
-begin: t("Experience.Card1.begin"),
-final: t("Experience.Card1.final")
+begin: t("Card1.begin"),
+final: t("Card1.final")
     },
 {
-        title: t("Experience.Card2.title"),
+        title: t("Card2.title"),
         key: 2,
-description : t("Experience.Card2.description"),
+description : t("Card2.description"),
 tecs : ["Scrum", "Git", "React", "Express",],
-begin: t("Experience.Card2.begin"),
-final: t("Experience.Card2.final")
+begin: t("Card2.begin"),
+final: t("Card2.final")
     },
 
 
@@ -34,11 +34,11 @@ final: t("Experience.Card2.final")
     < div id="About" className="flex flex-col w-full h-full min-h-screen max-w-screen-md gap-16 justify-center items-start ">
 
         <div className='flex flex-col gap-3 text-lg w-10/12 items-center justify-center '>
-            <p>{t("Experience.description")} </p>
-            <p>{t("Experience.description2")} </p>
+            <p>{t("description")} </p>
+            <p>{t("description2")} </p>
         </div>
 
-        <h1 className='font-semibold text-2xl'>{t("Experience.title")}</h1>
+        <h1 className='font-semibold text-2xl'>{t("title")}</h1>
 
         <div id='CardsContainer' className='flex flex-col h-full w-11/12 gap-20 justify-between items-center'>
             {
