@@ -61,6 +61,10 @@
             "learningAgility": "Agility",
             "adaptability": "Adaptability"
          }
+        },
+    "Projects":{
+        "title": "Projects",
+        "intro": "Through my projects, I seek to learn and look for new challenges, as well as to improve the user experience and optimize processes. In this way I try to keep myself updated on the latest development trends and apply best practices at every stage of the software lifecycle."
         }
      
 

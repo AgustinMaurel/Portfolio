@@ -61,6 +61,10 @@
             "adaptability": "Adaptabilidad",
             "comunication": "Comunicación"
             }
+        },
+    "Projects":{
+        "title": "Proyectos",
+        "intro": "A través de mis proyectos, busco aprender y buscar nuevos desafíos , también mejorar la experiencia del usuario y optimizar procesos. De esta forma intento mantenerme actualizado en las últimas tendencias del desarrollo y aplicar buenas prácticas en cada etapa del ciclo de vida del software."
         }
      
     }  
