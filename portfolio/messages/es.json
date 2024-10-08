@@ -47,5 +47,10 @@
             "subtitle":"Diseñador de Producto, Gráfico & Multimedial",
             "description":"Fue un valioso miembro del equipo, con experiencia y un enfoque proactivo para la resolución de problemas. Su trabajo en equipo y su comunicación eficaz con el equipo de UX ayudaron a alcanzar nuestros objetivos."
         }
+    },
+    "Skills":{
+        "title": "Habilidades",
+        "intro": "En mi carrera he aprendido las siguientes habilidades técnicas para el desarrollo de soluciones  y en conjunto también a trabajar en equipo empleando metodologías ágiles y desarrollando mis capacidades interpersonales."
     }
+     
 }
