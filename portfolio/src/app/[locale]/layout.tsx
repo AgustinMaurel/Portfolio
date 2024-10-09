@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
-import Footer from "@/Components/Footer/Footer";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { unstable_setRequestLocale } from "next-intl/server";
@@ -51,7 +49,7 @@ export default async function RootLayout({
 
           
           {children}
-          <Footer/>
+          
 
         </NextIntlClientProvider>
       </body>

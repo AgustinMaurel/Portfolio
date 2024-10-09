@@ -5,6 +5,7 @@ import { unstable_setRequestLocale } from "next-intl/server";
 import Navbar from "@/Components/Navbar/Navbar";
 import Projects from "@/Components/Projects/Projects";
 import Recommendations from "@/Components/Recommendations/Recommendations";
+import Footer from "@/Components/Footer/Footer";
 
 export default function Home({params:{locale}}:Readonly<{params: {locale:string}}>) {
   unstable_setRequestLocale(locale);
@@ -15,6 +16,7 @@ export default function Home({params:{locale}}:Readonly<{params: {locale:string}
           <div id="container about" className="flex flex-col w-full min-w-screen-md">
             <About/>
             <Navbar/>
+            <Footer/>
             </div>
 
         <div className="flex flex-col items-end justify-center w-full max-w-screen-2xl">

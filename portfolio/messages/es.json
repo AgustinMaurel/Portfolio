@@ -69,6 +69,10 @@
             "title": "COCO Mall | Shopping online",
             "description": "Coco Mall es una tienda online, un marketplace donde puedes comprar en diferentes tiendas o crear tu propia tienda para vender tus productos. Posee una gran cantidad de funcionalidades tanto para el usuario cliente como el dueño del negocio, un panel de administrador y gestion de pagos "
         }
+        },
+        "Footer":{
+            "contact":"Contactame :",
+            "download":"Descargar CV :"
         }
      
     }  

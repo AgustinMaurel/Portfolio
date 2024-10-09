@@ -9,7 +9,7 @@ const ProjectCard = ({title, img, alt, description, techs, url}:projectCardProps
 const t = useTranslations("Projects")
   
   return (
-    <div  className='w-full cursor-pointer h-full flex flex-col justify-center gap-4 p-3 items-center bg-wine/10 rounded-lg'>
+    <div  className='w-full  h-full flex flex-col justify-center gap-4 p-3 items-center bg-wine/10 rounded-lg'>
 
       <div className='w-full flex justify-start gap-4 items-center'>
 
