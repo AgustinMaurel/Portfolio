@@ -64,7 +64,11 @@
         },
     "Projects":{
         "title": "Proyectos",
-        "intro": "A través de mis proyectos, busco aprender y buscar nuevos desafíos , también mejorar la experiencia del usuario y optimizar procesos. De esta forma intento mantenerme actualizado en las últimas tendencias del desarrollo y aplicar buenas prácticas en cada etapa del ciclo de vida del software."
+        "intro": "A través de mis proyectos, busco aprender y buscar nuevos desafíos , también mejorar la experiencia del usuario y optimizar procesos. De esta forma intento mantenerme actualizado en las últimas tendencias del desarrollo y aplicar buenas prácticas en cada etapa del ciclo de vida del software.",
+        "coco":{
+            "title": "COCO Mall | Shopping online",
+            "description": "Coco Mall es una tienda online, un marketplace donde puedes comprar en diferentes tiendas o crear tu propia tienda para vender tus productos"
+        }
         }
      
     }  
