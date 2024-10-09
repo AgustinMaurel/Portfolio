@@ -3,10 +3,10 @@ import { projectCardProps } from "@/types"
 
 export const allProjects : projectCardProps[] = [
     {
-        title: "COCO Mall | Shopping online",
+        title: "title",
     img: "/henry.svg" ,
     alt: "coco",
-    description: "Coco Mall is an online shopping, a marketplace where you can shop in different stores or create your own store to sell your products.",
+    description: "description",
     techs: ["React","Redux","Tailwind","PostgreSQL","Node","Express"],
     url: "https://github.com/AgustinMaurel/CocoMall"
     },

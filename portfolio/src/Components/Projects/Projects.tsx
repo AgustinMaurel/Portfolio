@@ -12,7 +12,7 @@ const t = useTranslations("Projects")
                 <h1 className="text-2xl font-semibold">{t("title")}</h1>
                 <p className="text-lg w-11/12">{t("intro")}</p>
 
-                <div className=" flex justify-center w-11/12 gap-4  items-start">
+                <div className=" flex  flex-col justify-center w-11/12 gap-4  items-start">
                         {
                         allProjects.map((project)=>{
                                 return(
