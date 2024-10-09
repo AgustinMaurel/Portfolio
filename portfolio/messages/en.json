@@ -32,17 +32,17 @@
     "Recommendations":{
         "title": "Recomendaciones",
         "intro":"Some testimonials from colleagues or ex-colleagues about my work and their experience together",
-        "ref1":{
+        "tano":{
             "title":"Tano Bevacqua Cossa",
             "subtitle":"Founder & CEO of MUSURE",
             "description":"Maurel is an amazing team player. A developer that always wanted to have in my team. A problem solver. A lean thinker. A person I really appreciate and I wish to continue work together!. Thanks for everything you did for MUSURE world and let's continue to rock the Metaverse!!"
         },
-        "ref2":{
+        "nico":{
             "title":"Nico Constantin",
             "subtitle":"Full Stack Developer",
             "description":"It has been a pleasure to work with Agustín in MUSURE world and in other projects we work with.He is a collaborative person, problem-solving and always willing to face new challenges and learn. He also writes code that is easily readable, clean and always with maintainability and scalability in mind."
         },
-        "ref3":{
+        "fer":{
             "title":"Fernando Gabriel Villabrille",
             "subtitle":"Diseñador de Producto, Gráfico & Multimedial",
             "description":"He was a valuable team member, possessing expertise and a proactive approach to problem-solving. His teamwork and effective communication with the UX team helped reach our goals."
@@ -67,7 +67,7 @@
         "intro": "Through my projects, I seek to learn and look for new challenges, as well as to improve the user experience and optimize processes. In this way I try to keep myself updated on the latest development trends and apply best practices at every stage of the software lifecycle.",
         "coco":{
             "title": "COCO Mall | Shopping online",
-            "description":"Coco Mall is an online shopping, a marketplace where you can shop in different stores or create your own store to sell your products."
+            "description":"Coco Mall is an online store, a marketplace where you can shop in different stores or create your own store to sell your products. It has a lot of features for both the customer user and the business owner, an administrator panel and payment management. "
         }
     }
 

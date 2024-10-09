@@ -51,6 +51,7 @@ export interface ExperienceCard {
 }
 
 export interface CardRecommend {
+    reference: string,
     img: string,
     title: string,
     subtitle: string,
