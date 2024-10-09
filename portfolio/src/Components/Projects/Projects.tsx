@@ -26,10 +26,8 @@ const t = useTranslations("Projects")
                                                 key={project.title}
                                                 
                                                 />
-                                )
-                        })
-
-
+                                        )
+                                })
 
                         }
                 </div>

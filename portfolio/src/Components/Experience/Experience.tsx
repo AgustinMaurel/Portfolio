@@ -1,34 +1,15 @@
 'use client'
 import React from 'react'
 import { useTranslations } from 'next-intl'
-import { ExperienceCard } from '@/types'
 import CardExperience from './CardExperience'
+import { arrayExperienceCards } from '@/utils/Experience'
 
 
 const Experience = () => {
 
 const t = useTranslations("Experience")
 
-const arrayExperienceCards : ExperienceCard[] = [
-{
-    title: t("Card1.title"),
-    key: 1,
-description : t("Card1.description"),
-tecs : ["TailwindCSS", "ThreeJS", "Web3", "Firebase", "Moralis"],
-begin: t("Card1.begin"),
-final: t("Card1.final")
-    },
-{
-        title: t("Card2.title"),
-        key: 2,
-description : t("Card2.description"),
-tecs : ["Scrum", "Git", "React", "Express",],
-begin: t("Card2.begin"),
-final: t("Card2.final")
-    },
 
-
-]
   return (
 
     < div id="About" className="flex flex-col w-full h-full min-h-screen max-w-screen-md gap-16 justify-center items-start ">
@@ -47,10 +28,10 @@ final: t("Card2.final")
                     <CardExperience 
 
                     tecs={cardData.tecs}
-                    begin={cardData.begin}
-                    final={cardData.final}
-                    description={cardData.description}
-                    title={cardData.title}
+                    begin={t(`${cardData.key}.begin`)}
+                    final={t(`${cardData.key}.final`)}
+                    description={t(`${cardData.key}.description`)}
+                    title={t(`${cardData.key}.title`)}
                     key={cardData.key} 
                     />
                 )

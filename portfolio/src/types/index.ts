@@ -42,7 +42,7 @@ export interface ButtonNavbarProps {
 }
 
 export interface ExperienceCard {
-    key: number,
+    key: string,
     title: string,
     description : string,
     tecs : string[],

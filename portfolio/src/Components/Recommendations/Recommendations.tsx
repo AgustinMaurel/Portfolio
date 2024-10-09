@@ -3,8 +3,6 @@ import { useTranslations } from "next-intl";
 
 import CarrouselRecommends from "../CarrouselRecommends/CarrouselRecommends";
 
-
-
 export default function Recommendations (){
         const t = useTranslations("Recommendations")
   return (
