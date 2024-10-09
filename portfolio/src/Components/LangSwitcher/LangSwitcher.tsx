@@ -5,8 +5,12 @@ import { GrLanguage } from "react-icons/gr";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
+type propsLang={
+  english: string,
+  spanish: string
+}
 
-const LangSwitcher = () => {
+const LangSwitcher = ({english, spanish}:propsLang) => {
 
     const [flag, setFlag]=useState<boolean>(false)
 
@@ -30,15 +34,15 @@ const LangSwitcher = () => {
     }
   return (
     <label className='flex h-full items-center justify-center'>
-        <button onClick={handleClick}>
-      <GrLanguage  className="CustomButtonNavbar hover:cursor-pointer"/>
 
+        <button className="w-full h-full flex" onClick={handleClick}>
+          <GrLanguage  className="CustomButtonNavbar w-7 h-7 hover:cursor-pointer"/>
         </button>
         
         {flag?
-        <div onMouseLeave={()=>{setFlag(false)}} className={flag?'flex flex-col items-center text-sm justify-center border-licor w-[70px] gap-2 border-2 rounded-tl rounded-b bg-ecru text-licor p-1 absolute mt-20 mr-12 ':'sr-only'}id="">
-            <button className="CustomButtonNavbar hover:font-bold hover:text-licor" onClick={onSelect}  value="es">Spanish</button>
-            <button className="CustomButtonNavbar hover:font-bold hover:text-licor" onClick={onSelect} value="en">English</button>
+        <div onMouseLeave={()=>{setFlag(false)}} className={flag?'flex flex-col items-center text-sm justify-center border-licor w-[80px] gap-2 border-2 rounded-tr rounded-b bg-wine/10 text-ecru p-1 absolute mt-24 ml-16 ':'sr-only'}id="">
+            <button className="CustomButtonNavbar hover:font-bold text-md" onClick={onSelect}  value="es">{spanish}</button>
+            <button className="CustomButtonNavbar hover:font-bold text-md" onClick={onSelect} value="en">{english}</button>
         </div>: ""}
     </label>
   )

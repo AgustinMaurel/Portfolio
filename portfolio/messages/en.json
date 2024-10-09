@@ -4,7 +4,9 @@
         "about":"About",
         "skills":"Skills",
         "projects": "Projects",
-        "recommendations": "Recommendations"
+        "recommendations": "Recommendations",
+        "spanish": "Spanish",
+        "english": "English"
     },
     "About":{
         "pretitle":"I'm",
