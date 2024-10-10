@@ -11,9 +11,9 @@ const t = useTranslations("Projects")
   return (
     <div  className='w-full  h-full flex flex-col justify-center gap-4 p-3 items-center bg-wine/10 rounded-lg'>
 
-      <div className='w-full flex justify-start gap-4 items-center'>
+      <div className='w-full flex flex-col justify-start gap-4 items-center  xl:flex-row'>
 
-        <Image className='w-4/12 bg-ecru/80 rounded-lg' src={img} width={200} height={100} alt={alt}/>
+        <Image className=' w-full bg-ecru/80 rounded-lg xl:w-4/12' src={img} width={200} height={100} alt={alt}/>
         
         <div className='flex flex-col justify-start items-start gap-3 w-full  h-full'>
 
@@ -25,7 +25,7 @@ const t = useTranslations("Projects")
 
       </div>
 
-      <div className='w-full flex  gap-3 justify-start items-center'>
+      <div className='w-full flex flex-wrap gap-5 justify-start items-center'>
         {techs.map((e)=>{
             return(
                 <div className="text-sm w-fit flex items-center rounded-full bg-wine/20 px-3 py-1  font-medium leading-5 text-ecru" key={e}>{e}</div>

@@ -7,12 +7,12 @@ export default function Projects(){
 const t = useTranslations("Projects")
         return(
 
-            <div id="Projects" className="flex flex-col  w-full h-full justify-ce gap-y-10 items-start mb-20 pt-20 ">
+            <div id="Projects" className="flex flex-col  w-full h-full justify-center px-2 gap-y-10 items-start xl:mb-20 xl:pt-20 ">
 
-                <h1 className="text-2xl font-semibold">{t("title")}</h1>
-                <p className="text-lg w-11/12">{t("intro")}</p>
+                <h1 className="text-xl text-ecru xl:text-2xl font-semibold">{t("title")}</h1>
+                <p className=" text-md xl:text-lg xl:w-11/12">{t("intro")}</p>
 
-                <div className=" flex  flex-col justify-center w-11/12 gap-4  items-start">
+                <div className=" flex  flex-col justify-center w-full xl:w-11/12 gap-4  items-start">
                         {
                         allProjects.map((project)=>{
                                 return(

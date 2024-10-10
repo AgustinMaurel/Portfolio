@@ -12,16 +12,21 @@ const t = useTranslations("Experience")
 
   return (
 
-    < div id="About" className="flex flex-col w-full h-full min-h-screen max-w-screen-md gap-16 justify-center items-start ">
+    < div id="About" className="flex flex-col w-full h-full   gap-6 justify-center items-start xl:pt-20 2xl:pt-0 ">
 
-        <div className='flex flex-col gap-3 text-lg w-10/12 items-center justify-center '>
-            <p>{t("description")} </p>
-            <p>{t("description2")} </p>
-        </div>
+        <h2 className='text-xl text-ecru px-2 font-semibold'>{t("about")}</h2>
 
-        <h1 className='font-semibold text-2xl'>{t("title")}</h1>
+            <div className='flex flex-col gap-3 px-2 h-full w-full items-center justify-center text-wrap xl:text-md 2xl:text-lg '>
 
-        <div id='CardsContainer' className='flex flex-col h-full w-11/12 gap-20 justify-between items-center'>
+                <p className='w-full text-md'>{t("description")} </p>
+                <p className='w-full text-md' >{t("description2")} </p>
+
+            </div>
+
+
+        <h1 className='font-semibold text-xl px-2 text-ecru xl:text-2xl'>{t("title")}</h1>
+
+        <div id='CardsContainer' className='flex flex-col w-full h-full xl:w-11/12 gap-20 justify-between items-center'>
             {
             arrayExperienceCards?.map((cardData)=>{
                 return (

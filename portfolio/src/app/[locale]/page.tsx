@@ -11,15 +11,16 @@ export default function Home({params:{locale}}:Readonly<{params: {locale:string}
   unstable_setRequestLocale(locale);
   return (
     <div className="flex w-full  items-center justify-center min-h-screen bg-gradient-to-l from-licor to-black/80 font-[family-name:var(--font-geist-sans)]">
-      <div id='PageDiv' className="grid grid-cols-2 justify-start items-start  h-full w-full max-w-screen-2xl ">
+
+      <div id='PageDiv' className="grid xl:grid-cols-2 justify-start items-start  h-full w-screen max-w-screen-2xl ">
           
-          <div id="container about" className="flex flex-col w-full min-w-screen-md">
+          <div id="container about" className="flex flex-col  w-screen">
             <About/>
             <Navbar/>
             <Footer/>
-            </div>
+          </div>
 
-        <div className="flex flex-col items-end justify-center w-full max-w-screen-2xl">
+        <div className="flex flex-col start justify-center gap-10 h-full w-screen max-w-screen-2xl">
           <Experience/>
           <Recommendations/>
           <Skills/>

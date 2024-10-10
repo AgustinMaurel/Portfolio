@@ -16,6 +16,7 @@
      },
      "Experience":{
         "title":"Experiencia",
+        "about":"Sobre mi",
         "description": "Bienvenidx a mi portfolio, despues de 6 años trabajando en comercio  en 2020 decidi incursionar en este mundo de la programacion pasando por tomar clases a darlas y a acompañar a estudiantes en su proceso tanto de estudio como humano siendo TA's (teaching assistant). Luego de esto tuve el privilegio de trabajar para start ups desde su nacimiento hasta la concepción de producto.",
         "description2":"Lo que más disfruto es crear software en el punto donde se unen el diseño y la funcionalidad: cosas que se ven bien pero que también están bien construidas por detras.",
         "musure":{
@@ -33,7 +34,7 @@
      },
      "Recommendations":{
         "title": "Recomendaciones",
-        "intro":"Algunos testimonios de colegas o ex-compañeros sobre mi trabajo y nuestra experiencia juntos",
+        "intro":"Algunos testimonios de colegas o ex-compañeros sobre mi trabajo y nuestra experiencia juntos.",
         "tano":{
             "title":"Tano Bevacqua Cossa",
             "subtitle":"Founder & CEO of MUSURE",
