@@ -2,6 +2,7 @@
 import { projectCardProps } from '@/types'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+import { FaGithub } from 'react-icons/fa'
 
 
 const ProjectCard = ({title, img, alt, description, techs, url}:projectCardProps) => {
@@ -17,7 +18,15 @@ const t = useTranslations("Projects")
         
         <div className='flex flex-col justify-start items-start gap-3 w-full '>
 
-         <h1 className='text-xl font-semibold'>{t(`${alt}.${title}`)}</h1>
+              <div className='flex w-full justify-start gap-3 items-start'>
+                    <h1 className='text-xl font-semibold'>{t(`${alt}.${title}`)}</h1>
+                    {url?
+                    <a  href={url} target='_blank'>
+                      <FaGithub  className={"text-2xl hover:text-ecru cursor-pointer"}/>
+
+                    </a>: ""
+                  }
+              </div>
 
           <p className='text-md'>{t(`${alt}.${description}`)}</p>
 
