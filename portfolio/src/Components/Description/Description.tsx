@@ -11,7 +11,7 @@ export default function Description(){
             <div className="flex flex-col  w-full h-full justify-center items-start ">
 
                 <span className="font-bold text-xl 2xl:text-2xl">{t("About.pretitle")}</span>
-                <h1 className="font-bold text-[35px] 2xl:text-[50px] text-ecru ">{t("About.title")}</h1>
+                <h1 className="font-bold text-[35px] 2xl:text-[45px] text-ecru ">{t("About.title")}</h1>
                 
             <p  className=" text-wrap w-full bg-inherit  outline-none xl:text-md 2xl:text-lg ">
                     {t("About.description")}

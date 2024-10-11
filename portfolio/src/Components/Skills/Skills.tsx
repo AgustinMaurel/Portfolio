@@ -11,7 +11,7 @@ export default function Skills () {
             <div id="Skills" className="flex flex-col w-full h-full gap-y-5 px-2 xl:max-w-screen-md justify-center  items-start xl:gap-y-10 ">
 
                      <h1 className=" text-xl text-ecru xl:text-2xl font-semibold">{t("title")}</h1>
-                     <p className="text-md xl:text-lg w-11/12 text-wrap">{t("intro")}</p>
+                     <p className="text-md xl:text-lg xl:w-11/12 text-wrap">{t("intro")}</p>
 
                 <div className="flex flex-col  w-full h-full justify-start items-start gap-5 xl:w-11/12 xl:flex-row"> 
                      <SkillsCard allSkills={techSkills} title="tech" titleKey="hard"/>   

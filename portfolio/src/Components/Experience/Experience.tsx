@@ -16,10 +16,10 @@ const t = useTranslations("Experience")
 
         <h2 className='text-xl text-ecru px-2 font-semibold'>{t("about")}</h2>
 
-            <div className='flex flex-col gap-3 px-2 h-full w-full items-center justify-center text-wrap xl:text-md 2xl:text-lg '>
+            <div className='flex flex-col gap-3 px-2 h-full w-full items-center justify-center xl:items-start text-wrap xl:text-md 2xl:text-lg '>
 
-                <p className='w-full text-md'>{t("description")} </p>
-                <p className='w-full text-md' >{t("description2")} </p>
+                <p className='w-full text-md xl:w-11/12'>{t("description")} </p>
+                <p className='w-full text-md xl:w-11/12' >{t("description2")} </p>
 
             </div>
 
