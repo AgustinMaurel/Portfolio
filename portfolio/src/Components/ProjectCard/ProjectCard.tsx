@@ -14,7 +14,7 @@ const t = useTranslations("Projects")
 
       <div className='w-full flex flex-col justify-start gap-4 items-center  sm:flex-row'>
 
-        <Image className={` ${alt === "turnify"? "bg-white p-3":"bg-ecru/80 p-3" }   rounded-lg sm:w-4/12 xl:h-full`} src={img} width={200} height={100} alt={alt}/>
+        <Image className={` ${alt === "turnify"? "bg-white p-3":"bg-ecru/80 p-3" }   rounded-lg sm:w-4/12 md:w-3/12 lg:w-6/12 xl:h-full`} src={img} width={200} height={100} alt={alt}/>
         
         <div className='flex flex-col justify-start items-start gap-3 w-full '>
 
