@@ -22,7 +22,7 @@ import { useEffect, useState, Suspense } from 'react';
     }, []);
 
          return (
-            <div id="ViewerContainer" className='flex items-center justify-center pt-20 xl:pt-0 w-screen h-[600px] xl:h-full xl:w-full   '>
+            <div id="ViewerContainer" className='flex items-center justify-center  xl:pt-0 w-screen h-[600px] xl:h-full xl:w-full   '>
                <Suspense fallback={flag3D}>
             <Canvas
              id='Canvas'
