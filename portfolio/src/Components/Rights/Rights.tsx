@@ -6,8 +6,9 @@ const Rights = () => {
     const t = useTranslations("Rights")
 
   return (
-    <div className='w-full h-full flex flex-col justify-start items-start pb-20 px-2'>
-        <p className="span-sm span-wrap w-8/12">
+    <div className='w-full h-full flex flex-col justify-center items-center xl:justify-start xl:items-start pb-20 px-2'>
+
+        <p className="span-sm span-wrap xl:w-8/12">
         <span className='opacity-30'>{t("designed")}</span>
          <a href="https://www.figma.com" target='_blank' className='font-semibold opacity-60  span-opacity-0 hover:text-ecru'>{`${t("figma")}`}</a>
         <span className='opacity-30'>{t("and")}</span>
@@ -21,7 +22,7 @@ const Rights = () => {
          
          
          </p>
-         <span className='text-md opacity-30'>{t("created")}</span>
+         <span className='text-md  opacity-30'>{t("created")}</span>
     </div>
   )
 }
