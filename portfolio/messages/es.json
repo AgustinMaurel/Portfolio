@@ -82,6 +82,20 @@
         "Footer":{
             "contact":"Contactame :",
             "download":"Descargar CV :"
+        },
+        "Rights":{
+            "designed": "Designed in ",
+            "figma":"Figma",
+            "and": " and coded in ",
+            "visual": "Visual Studio Code.",
+            "build" : " Build with ",
+            "next": "Next.js",
+            "and1": " and ",
+            "tailwind": "Tailwind CSS",
+            "deploy":", deployed with ",
+            "vercel": "Vercel.",
+            "created": "@ 2024 Created by Maurel Agustin"
+
         }
      
     }  
