@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import CardExperience from './CardExperience'
 import { arrayExperienceCards } from '@/utils/Experience'
@@ -8,11 +8,21 @@ import { arrayExperienceCards } from '@/utils/Experience'
 const Experience = () => {
 
 const t = useTranslations("Experience")
+const [isLargeScreen, setIsLargeScreen] = useState(false);
+  
 
+useEffect(() => {
+   const updateIsLargeScreen = () => setIsLargeScreen(window.innerWidth >= 1921); // xl breakpoint in Tailwind
+
+   updateIsLargeScreen(); // Set initial value
+   window.addEventListener('resize', updateIsLargeScreen);
+
+   return () => window.removeEventListener('resize', updateIsLargeScreen);
+ }, []);
 
   return (
 
-    < div id="About" className="flex flex-col w-full h-full   gap-6 justify-center items-start xl:pt-20 2xl:pt-40 ">
+    < div id="About" className={`flex flex-col w-full h-full lg:pt-32 2xl:pt-0   gap-6 justify-center items-start 2xl:${isLargeScreen? "pt-40":""} `} >
 
         <h2 className='text-xl text-ecru px-2 font-semibold'>{t("about")}</h2>
 

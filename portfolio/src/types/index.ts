@@ -7,7 +7,7 @@ export type projectCardProps = {
     alt: string,
     description: string,
     techs: string[],
-    url: string
+    url?: string
 }
 
 export type Tech =

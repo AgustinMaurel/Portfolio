@@ -71,6 +71,10 @@
         "coco":{
             "title": "COCO Mall | Shopping online",
             "description": "Coco Mall es una tienda online, un marketplace donde puedes comprar en diferentes tiendas o crear tu propia tienda para vender tus productos. Posee una gran cantidad de funcionalidades tanto para el usuario cliente como el dueño del negocio, un panel de administrador y gestion de pagos "
+        },
+        "turnify":{
+            "title": "Turnify",
+            "description":"Turnify es una aplicación de turnos integrada a WhatsApp, una solución innovadora que permite a los usuarios reservar citas y gestionar turnos de manera sencilla. Además, cuenta con una app dedicada para administradores de cualquier rubro, facilitando la gestión y organización de los servicios. "
         }
         },
         "Footer":{

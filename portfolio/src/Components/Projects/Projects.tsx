@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl"
 import { allProjects } from "@/utils/Projects"
 import ProjectCard from "../ProjectCard/ProjectCard"
 
+
 export default function Projects(){
     
 const t = useTranslations("Projects")
@@ -31,6 +32,7 @@ const t = useTranslations("Projects")
 
                         }
                 </div>
+                
                     
              </div>
 

@@ -10,7 +10,7 @@ export default function Footer(){
     const t = useTranslations('Footer')
     const classIcons = "text-2xl hover:text-ecru cursor-pointer"
     return(
-        <div id="Footer" className=" flex-col hidden w-full h-20 pb-64 fixed xl:flex bottom-0 justify-start gap-3 items-center bg-transparent lg:pl-2">
+        <div id="Footer" className=" flex-col hidden w-full h-20 xl:pb-36 2xl:pb-64 fixed xl:flex bottom-0 justify-start gap-3 items-center bg-transparent lg:pl-2">
 
             <div className="flex  w-full   bottom-0 justify-start gap-3 items-center bg-transparent">
 
