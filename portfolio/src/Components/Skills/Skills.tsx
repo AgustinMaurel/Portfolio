@@ -13,7 +13,7 @@ export default function Skills () {
                      <h1 className=" text-xl text-ecru xl:text-2xl font-semibold">{t("title")}</h1>
                      <p className="text-md xl:text-lg xl:w-11/12 text-wrap">{t("intro")}</p>
 
-                <div className="flex flex-col  w-full h-full justify-start items-start gap-5 xl:w-11/12 xl:flex-row"> 
+                <div className="flex flex-col md:flex-row  w-full h-full justify-start items-start gap-5 xl:w-11/12 "> 
                      <SkillsCard allSkills={techSkills} title="tech" titleKey="hard"/>   
                      <SkillsCard allSkills={softSkillsTranslated} title="soft" titleKey="soft"/>   
                         

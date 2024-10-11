@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
  import { OrbitControls, Environment, PerspectiveCamera, } from '@react-three/drei';
  import { Canvas } from '@react-three/fiber';
  import { Wizard } from '../Wizard/Wizard';
@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
  export const ModelViewer: React.FC = () => {
 
    const [isLargeScreen, setIsLargeScreen] = useState(false);
+   const [flag3D, setFlag3D] =useState(false)
   
 
    useEffect(() => {
@@ -15,13 +16,14 @@ import { useEffect, useState } from 'react';
   
       updateIsLargeScreen(); // Set initial value
       window.addEventListener('resize', updateIsLargeScreen);
-  
+      setFlag3D(true)
       return () => window.removeEventListener('resize', updateIsLargeScreen);
+      
     }, []);
 
          return (
             <div id="ViewerContainer" className='flex items-center justify-center pt-20 xl:pt-0 w-screen h-[600px] xl:h-full xl:w-full   '>
-
+               <Suspense fallback={flag3D}>
             <Canvas
              id='Canvas'
              className='flex w-full items-center justify-center ' 
@@ -39,6 +41,7 @@ import { useEffect, useState } from 'react';
                   zoom={isLargeScreen? 0.3: 0.6}
                   />
             </Canvas>
+               </Suspense>
 
 
             </div>

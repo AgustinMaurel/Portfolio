@@ -28,8 +28,10 @@ export const techSkills :Tech[] = [
 export const softSkills: string[] = [
     'teamwork',
     'comunication',
+    'empathy',
     'problemSolving',
     'continuousLearning',
     'learningAgility',
     'adaptability',
+    'time'
   ];
