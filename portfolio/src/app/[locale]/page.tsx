@@ -20,7 +20,7 @@ export default function Home({params:{locale}}:Readonly<{params: {locale:string}
             <Footer/>
           </div>
 
-        <div className="flex flex-col start justify-center gap-10 h-full w-screen max-w-screen-2xl">
+        <div className="flex flex-col start justify-center gap-10 h-full w-screen max-w-screen-2xl xl:max-w-screen-sm 2xl:max-w-screen-md">
           <Experience/>
           <Recommendations/>
           <Skills/>

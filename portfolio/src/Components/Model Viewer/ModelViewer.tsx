@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
  export const ModelViewer: React.FC = () => {
 
    const [isLargeScreen, setIsLargeScreen] = useState(false);
-   const [positionData, setPositionData ]= useState([])
+  
 
    useEffect(() => {
       const updateIsLargeScreen = () => setIsLargeScreen(window.innerWidth >= 1280); // xl breakpoint in Tailwind
@@ -34,8 +34,8 @@ import { useEffect, useState } from 'react';
                 <PerspectiveCamera
                 
                   makeDefault
-                  position={isLargeScreen?[2.4, 0.9, 1.8]:[2.5, 0.9, 1.8]}
-                  fov={50}
+                  position={isLargeScreen?[2.2, 0.9, 1.8]:[2.5, 0.9, 1.8]}
+                  fov={isLargeScreen?70 :60}
                   zoom={isLargeScreen? 0.3: 0.6}
                   />
             </Canvas>
