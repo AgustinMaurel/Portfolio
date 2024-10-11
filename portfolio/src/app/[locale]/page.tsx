@@ -6,6 +6,7 @@ import Navbar from "@/Components/Navbar/Navbar";
 import Projects from "@/Components/Projects/Projects";
 import Recommendations from "@/Components/Recommendations/Recommendations";
 import Footer from "@/Components/Footer/Footer";
+import Rights from "@/Components/Rights/Rights";
 
 export default function Home({params:{locale}}:Readonly<{params: {locale:string}}>) {
   unstable_setRequestLocale(locale);
@@ -25,6 +26,7 @@ export default function Home({params:{locale}}:Readonly<{params: {locale:string}
           <Recommendations/>
           <Skills/>
           <Projects/>
+          <Rights/>
 
         </div>
       
