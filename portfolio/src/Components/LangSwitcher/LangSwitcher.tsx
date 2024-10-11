@@ -33,10 +33,10 @@ const LangSwitcher = ({english, spanish}:propsLang) => {
         }, 5000);
     }
   return (
-    <label className='flex h-full items-center justify-center'>
+    <label className='flex h-full items-center justify-center '>
 
-        <button className="w-full h-full flex" onClick={handleClick}>
-          <GrLanguage  className="CustomButtonNavbar w-7 h-7 hover:cursor-pointer"/>
+        <button className="w-full h-full flex " onClick={handleClick}>
+          <GrLanguage  className="CustomButtonNavbar w-7 h-7 opacity-30 hover:opacity-100 hover:cursor-pointer"/>
         </button>
         
         {flag?

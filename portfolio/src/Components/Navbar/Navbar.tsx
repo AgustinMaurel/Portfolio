@@ -32,7 +32,7 @@ export default function Navbar(){
     },[])
     
     return (
-        <nav className="cursor-all-scroll hidden xl:flex flex-col fixed w-full xl:pt-32 2xl:pt-0 top-0 bottom-0 items-center justify-center lg:lg:pl-2  max-w-screen-md">
+        <nav className="cursor-all-scroll hidden xl:flex flex-col fixed  xl:pt-32 2xl:pt-0 top-0 bottom-0 items-center justify-center lg:lg:pl-2  max-w-screen-md">
                 
             {isClient?<div className="flex justify-between items-center h-full w-full max-w-screen-2xl ">
 
