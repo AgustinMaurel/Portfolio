@@ -1,10 +1,11 @@
 'use client'
 
-import { MouseEvent, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import CustomButtonNavbar from "../CustomButtonNavbar/CustomButtonNavbar";
 
 import LangSwitcher from "../LangSwitcher/LangSwitcher";
 import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
 
 
 export default function Navbar(){
@@ -13,10 +14,8 @@ export default function Navbar(){
 
     const [section, setSection] = useState<string>("#About")
 
-    const handleSection = (e : MouseEvent<HTMLAnchorElement> ) =>{
-     
-        setSection(e.target.hash)
-    }
+    const urlComplete =usePathname()
+    console.log(urlComplete)
 
     const activeClassLine="border-2 w-16 flex transition-all text-ecru motion-reduce:transition-none ease-in-out duration-300"
 
@@ -43,22 +42,22 @@ export default function Navbar(){
 
                         <div className={section.includes("About")? classSectionOn: classSectionOff}>
                             <div className={section.includes("About") ? activeClassLine : offClassLine}/>
-                             <CustomButtonNavbar handleClick={handleSection}  title={t("about")} href="#About" styles="CustomButtonNavbar flex justify-start w-full hover:font-semibold"/>
+                             <CustomButtonNavbar handleClick={()=>setSection("About")}  title={t("about")} href="#About" styles="CustomButtonNavbar flex justify-start w-full hover:font-semibold"/>
                         </div>
 
                         <div className={section.includes("Recommendations")? classSectionOn: classSectionOff}>
                             <div className={section.includes("Recommendations") ? activeClassLine : offClassLine}/>
-                             <CustomButtonNavbar handleClick={handleSection}  title={t("recommendations")} href="#Recommendations" styles="CustomButtonNavbar flex w-full justify-start hover:font-semibold"/>
+                             <CustomButtonNavbar handleClick={()=>setSection("Recommendations")}  title={t("recommendations")} href="#Recommendations" styles="CustomButtonNavbar flex w-full justify-start hover:font-semibold"/>
                         </div>
 
                         <div className={section.includes("Skills")? classSectionOn: classSectionOff}>
                             <div className={section.includes("Skills") ? activeClassLine :offClassLine}/>
-                            <CustomButtonNavbar handleClick={handleSection} title={t("skills")} href="#Skills" styles="CustomButtonNavbar flex w-full  hover:font-semibold"/>
+                            <CustomButtonNavbar handleClick={()=>setSection("Skills")} title={t("skills")} href="#Skills" styles="CustomButtonNavbar flex w-full  hover:font-semibold"/>
                         </div>
                         
                         <div className={section.includes("Projects")? classSectionOn: classSectionOff}>
                             <div className={section.includes("Projects") ? activeClassLine : offClassLine}/>
-                             <CustomButtonNavbar handleClick={handleSection} title={t("projects")} href="#Projects" styles="CustomButtonNavbar flex w-full  hover:font-semibold"/>
+                             <CustomButtonNavbar handleClick={()=>setSection("Projects")} title={t("projects")} href="#Projects" styles="CustomButtonNavbar flex w-full  hover:font-semibold"/>
                         </div>
                        
                    <LangSwitcher english={t("english")} spanish={t("spanish")}/>
