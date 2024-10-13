@@ -2,7 +2,7 @@
 import { useEffect, useState, Suspense } from 'react';
  import { OrbitControls, Environment, PerspectiveCamera, } from '@react-three/drei';
  import { Canvas } from '@react-three/fiber';
- import { Wizard } from '../Wizard/Wizard';
+ 
 
 
  export const ModelViewer: React.FC = () => {
@@ -30,7 +30,7 @@ import { useEffect, useState, Suspense } from 'react';
            
              style={{width: `100%`, height: `100%`, position: `relative` , display:"flex", alignContent:"baseline", alignItems:"baseline", flex:"flex-col"}}
              >
-                <Wizard/>
+                {/* <Wizard /> */}
                 <Environment preset='forest'/>
                 <OrbitControls  enableZoom={false} autoRotate={true}/>
                 <PerspectiveCamera
