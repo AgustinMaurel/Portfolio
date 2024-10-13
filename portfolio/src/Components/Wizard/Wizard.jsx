@@ -1,11 +1,8 @@
 'use client'
 import { useGLTF } from '@react-three/drei'
 
-
-
-
-
 export function Wizard() {
+
   const { nodes, materials } = useGLTF('/wizard.glb')
   const cube  = nodes.Cube002_0
   const finalGeometry  = cube.geometry
@@ -27,4 +24,4 @@ export function Wizard() {
   )
 }
 
-useGLTF.preload('../../../Public/wizard.glb')
+useGLTF.preload('wizard.glb')
