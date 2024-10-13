@@ -7,6 +7,7 @@ import { FaGithub } from 'react-icons/fa'
 
 const ProjectCard = ({title, img, alt, description, techs, url}:projectCardProps) => {
 
+  console.log(img)
 const t = useTranslations("Projects")
   
   return (
