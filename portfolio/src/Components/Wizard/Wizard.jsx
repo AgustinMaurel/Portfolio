@@ -1,4 +1,4 @@
-
+'use client'
 import { useGLTF } from '@react-three/drei'
 
 
@@ -27,4 +27,4 @@ export function Wizard() {
   )
 }
 
-useGLTF.preload('wizard.glb')
+useGLTF.preload('../../../Public/wizard.glb')
