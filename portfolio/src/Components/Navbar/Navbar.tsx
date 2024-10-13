@@ -2,10 +2,8 @@
 
 import {  useEffect, useState } from "react";
 import CustomButtonNavbar from "../CustomButtonNavbar/CustomButtonNavbar";
-
 import LangSwitcher from "../LangSwitcher/LangSwitcher";
 import { useTranslations } from "next-intl";
-import { usePathname } from "next/navigation";
 
 
 export default function Navbar(){
@@ -14,8 +12,7 @@ export default function Navbar(){
 
     const [section, setSection] = useState<string>("#About")
 
-    const urlComplete =usePathname()
-    console.log(urlComplete)
+   
 
     const activeClassLine="border-2 w-16 flex transition-all text-ecru motion-reduce:transition-none ease-in-out duration-300"
 
