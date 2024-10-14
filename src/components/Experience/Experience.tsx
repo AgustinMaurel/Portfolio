@@ -24,7 +24,7 @@ useEffect(() => {
 
     < div id="About" className={`flex flex-col w-full h-full xl:pt-20 2xl:pt-0   gap-6 justify-center items-start ${isLargeScreen? "2xl:pt-40":""} `} >
 
-        <h2 className='text-xl text-ecru px-2 font-semibold'>{t("about")}</h2>
+        <h2 className='text-xl xl:text-2xl text-ecru px-2 font-semibold'>{t("about")}</h2>
 
             <div className='flex flex-col gap-3 px-2 h-full w-full items-center justify-center xl:items-start text-wrap xl:text-md 2xl:text-lg '>
 
