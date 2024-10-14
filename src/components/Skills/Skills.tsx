@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl"
-import { techSkills, softSkills } from "@/utils/Skill";
+import { techSkills, softSkills } from "@/utils/skill";
 import SkillsCard from "../SkillsCard/SkillsCard"
 
 export default function Skills () {
