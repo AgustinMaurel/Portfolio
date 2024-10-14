@@ -5,7 +5,7 @@ import { ExperienceCard } from '@/types'
 
 const CardExperience = ({title, description, begin, final, tecs}:ExperienceCard) => {
   return (
-    <div className='flex flex-col xl:flex-row justify-center  items-center  w-full h-full hover:bg-wine/10 hover:bg-opacity-10 transition-all ease-in-out duration-500 rounded-lg p-2 '>
+    <div className='flex flex-col xl:flex-row justify-center   items-center  w-full h-full hover:bg-wine/10 hover:bg-opacity-10 transition-all ease-in-out duration-500 rounded-lg p-5 '>
 
         <div className='flex gap-2 text-xs h-full w-full justify-start place-items-start xl:w-3/12 xl:gap-0 xl:flex-col xl:justify-center '>
                 <span>{begin}</span>

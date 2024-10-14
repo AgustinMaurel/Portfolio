@@ -29,7 +29,7 @@ useEffect(() => {
             <div className='flex flex-col gap-3 px-2 h-full w-full items-center justify-center xl:items-start text-wrap xl:text-md 2xl:text-lg '>
 
                 <p className='w-full text-md xl:w-11/12'>{t("description")} </p>
-                <p className='w-full text-md xl:w-11/12' >{t("description2")}zdsvzsv </p>
+                <p className='w-full text-md xl:w-11/12' >{t("description2")} </p>
 
             </div>
 

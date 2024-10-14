@@ -15,7 +15,7 @@ export const allProjects : projectCardProps[] = [
     img: "/turnify.png" ,
     alt: "turnify",
     description: "description",
-    techs: ["Tailwind","React Native","Node","Express"],
+    techs: ["Tailwind","React Native","Node","Express", "PostgreSQL"],
 
     },
     
