@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 import CardExperience from './CardExperience'
-import { arrayExperienceCards } from '@/utils/Experience'
+import { arrayExperienceCards } from '@/utils/experience'
 
 
 const Experience = () => {

@@ -6,7 +6,7 @@ import CustomCardRecommend from "../CustomCardRecommend/CustomCardRecommend"
 import Autoplay from "embla-carousel-autoplay"
 import { useTranslations } from 'next-intl'
 import { useCallback } from 'react';
-import { allRefs } from '@/utils/Recommendations';
+import { allRefs } from '@/utils/recommendations';
 
 type CarrouselProps = {
   slidesOnScreen :number,

@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl"
-import { allProjects } from "@/utils/Projects"
+import { allProjects } from "@/utils/projects"
 import ProjectCard from "../ProjectCard/ProjectCard"
 
 
