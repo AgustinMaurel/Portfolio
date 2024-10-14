@@ -9,7 +9,7 @@ const ProjectCard = ({title, img, alt, description, techs, url}:projectCardProps
 
 const t = useTranslations("Projects")
   
-    console.log(img)
+ 
   return (
     <div  className='w-full  h-full flex flex-col justify-center gap-4 p-3 items-center bg-wine/10 rounded-lg'>
 

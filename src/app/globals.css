@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer components{
+
+  .CustomButtonNavbar:hover{
+    color: #DEBA6F;
+    transition: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+  }
+}
