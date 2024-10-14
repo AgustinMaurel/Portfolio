@@ -1,12 +1,12 @@
-import Skills from "@/Components/Skills/Skills";
-import About from "@/Components/About/About";
-import Experience from "@/Components/Experience/Experience";
+import Skills from "@/components/Skills/Skills";
+import About from "@/components/About/About";
+import Experience from "@/components/Experience/Experience";
 import { unstable_setRequestLocale } from "next-intl/server";
-import Navbar from "@/Components/Navbar/Navbar";
-import Projects from "@/Components/Projects/Projects";
-import Recommendations from "@/Components/Recommendations/Recommendations";
-import Footer from "@/Components/Footer/Footer";
-import Rights from "@/Components/Rights/Rights";
+import Navbar from "@/components/Navbar/Navbar";
+import Projects from "@/components/Projects/Projects";
+import Recommendations from "@/components/Recommendations/Recommendations";
+import Footer from "@/components/Footer/Footer";
+import Rights from "@/components/Rights/Rights";
 
 export default function Home({params:{locale}}:Readonly<{params: {locale:string}}>) {
   unstable_setRequestLocale(locale);
