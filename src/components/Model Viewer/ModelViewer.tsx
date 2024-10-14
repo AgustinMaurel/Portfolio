@@ -3,13 +3,14 @@ import { useEffect, useState, Suspense } from 'react';
  import { OrbitControls, Environment, PerspectiveCamera, } from '@react-three/drei';
  import { Canvas } from '@react-three/fiber';
  import { Wizard } from '../Wizard/Wizard';
+ import { Triangle } from 'react-loader-spinner';
  
 
 
  export const ModelViewer: React.FC = () => {
 
    const [isLargeScreen, setIsLargeScreen] = useState(false);
-   const [flag3D, setFlag3D] =useState(false)
+   
   
 
    useEffect(() => {
@@ -17,14 +18,24 @@ import { useEffect, useState, Suspense } from 'react';
   
       updateIsLargeScreen(); // Set initial value
       window.addEventListener('resize', updateIsLargeScreen);
-      setFlag3D(true)
+      
       return () => window.removeEventListener('resize', updateIsLargeScreen);
       
     }, []);
 
          return (
             <div id="ViewerContainer" className='flex items-center justify-center  xl:pt-0 w-screen h-[600px] xl:h-full xl:w-full   '>
-               <Suspense fallback={flag3D}>
+               <Suspense fallback={
+                  <Triangle
+                     visible={true}
+                     height="80"
+                     width="80"
+                     color="#DEBA6F"
+                     ariaLabel="triangle-loading"
+                     wrapperStyle={{}}
+                     wrapperClass=" pb-20"
+               />
+               }>
             <Canvas
              id='Canvas'
              className='flex w-full items-center justify-center ' 
