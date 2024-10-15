@@ -5,7 +5,7 @@ export const allRefs : CardRecommend[] =[
     {
       reference:"tano",
       description:"description",
-      img: "/tano.svg",
+      img: "/tano.png",
       subtitle: "subtitle",
       title: "title",
     },
