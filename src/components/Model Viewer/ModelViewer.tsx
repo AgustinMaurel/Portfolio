@@ -24,7 +24,7 @@ import { useEffect, useState, Suspense } from 'react';
     }, []);
 
          return (
-            <div id="ViewerContainer" className='flex items-center justify-center  xl:pt-0 w-screen h-[600px] xl:h-full xl:w-full   '>
+            <div id="ViewerContainer" className='flex items-center snap-mandatory justify-center overflow-auto touch-auto xl:pt-0 w-screen h-[600px] xl:h-full xl:w-full   '>
                <Suspense fallback={
                   <Triangle
                      visible={true}
@@ -38,14 +38,14 @@ import { useEffect, useState, Suspense } from 'react';
                }>
             <Canvas
              id='Canvas'
-             className='flex w-full items-center justify-center cursor-auto ' 
+             className='flex w-full items-center justify-center cursor-auto snap-both ' 
              
            
-             style={{width: `100%`, height: `100%`, position: `relative` , display:"flex", alignContent:"baseline", alignItems:"baseline", flex:"flex-col"}}
+             style={{width: `100%`, height: `100%`, position: `relative` , display:"flex", alignContent:"baseline", alignItems:"baseline", flex:"flex-col", scrollBehavior: "auto", direction:"initial", touchAction:"pan-down", overflow:"auto",}}
              >
                 <Wizard /> 
                 <Environment preset='forest'/>
-                <OrbitControls enableRotate={false}  enableZoom={false} autoRotate={true}/>
+                <OrbitControls  enableRotate={false}   enableZoom={false} autoRotate={true}/>
                 <PerspectiveCamera
                 
                   makeDefault
