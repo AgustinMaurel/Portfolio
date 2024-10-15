@@ -38,13 +38,14 @@ import { useEffect, useState, Suspense } from 'react';
                }>
             <Canvas
              id='Canvas'
-             className='flex w-full items-center justify-center ' 
+             className='flex w-full items-center justify-center cursor-auto ' 
+             
            
              style={{width: `100%`, height: `100%`, position: `relative` , display:"flex", alignContent:"baseline", alignItems:"baseline", flex:"flex-col"}}
              >
                 <Wizard /> 
                 <Environment preset='forest'/>
-                <OrbitControls  enableZoom={false} autoRotate={true}/>
+                <OrbitControls enableRotate={false}  enableZoom={false} autoRotate={true}/>
                 <PerspectiveCamera
                 
                   makeDefault
