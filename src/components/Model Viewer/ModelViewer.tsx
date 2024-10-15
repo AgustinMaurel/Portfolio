@@ -41,7 +41,7 @@ import { useEffect, useState, Suspense } from 'react';
              className='flex w-full items-center justify-center cursor-auto snap-both ' 
              
            
-             style={{width: `100%`, height: `100%`, position: `relative` , display:"flex", alignContent:"baseline", alignItems:"baseline", flex:"flex-col", scrollBehavior: "auto", direction:"initial", touchAction:"pan-down", overflow:"auto",}}
+             style={{width: `100%`, height: `100%`, position: `relative` , display:"flex", alignContent:"baseline", alignItems:"baseline", flex:"flex-col", scrollBehavior: "auto", direction:"initial", touchAction:"auto", overflow:""}}
              >
                 <Wizard /> 
                 <Environment preset='forest'/>
