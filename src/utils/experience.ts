@@ -6,7 +6,7 @@ import { ExperienceCard } from "@/types";
         title: "title",
         key: "musure",
         description : "description",
-        tecs : ["TailwindCSS", "ThreeJS", "Web3", "Firebase", "Moralis", "React"],
+        tecs : ["TailwindCSS", "ThreeJS", "Web3", "AR (Augmented reality)", "Firebase", "Moralis", "React",],
         begin: "begin",
         final: "final"
         },
