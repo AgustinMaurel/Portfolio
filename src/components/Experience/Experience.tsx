@@ -36,7 +36,7 @@ useEffect(() => {
 
         <h1 className='font-semibold text-xl px-2 text-ecru xl:text-2xl'>{t("title")}</h1>
 
-        <div id='CardsContainer' className='flex flex-col w-full h-full xl:w-11/12 gap-20 justify-between items-center'>
+        <div id='CardsContainer' className='flex flex-col w-full h-full xl:w-11/12 px-2 gap-20 justify-between items-center'>
             {
             arrayExperienceCards?.map((cardData)=>{
                 return (
