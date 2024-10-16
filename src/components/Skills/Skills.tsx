@@ -8,7 +8,7 @@ export default function Skills () {
         const softSkillsTranslated = softSkills.map((s) => t(`softSkills.${s}`));
         return(
 
-            <div id="Skills" className="flex flex-col w-full h-full gap-y-5 px-2 xl:max-w-screen-md justify-center  items-start xl:gap-y-10 ">
+            <div id="Skills" className="flex flex-col w-full h-full gap-y-5 px-5 xl:px-2 xl:max-w-screen-md justify-center  items-start xl:gap-y-10 ">
 
                      <h1 className=" text-xl text-ecru xl:text-2xl font-semibold">{t("title")}</h1>
                      <p className="text-md xl:text-lg xl:w-11/12 text-wrap">{t("intro")}</p>

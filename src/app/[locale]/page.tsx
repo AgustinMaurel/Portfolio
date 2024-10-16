@@ -21,7 +21,7 @@ export default function Home({params:{locale}}:Readonly<{params: {locale:string}
             <Footer/>
           </div>
 
-        <div className="flex flex-col items-start justify-center gap-10 h-full w-screen max-w-screen-2xl 2xl:pt-10 xl:max-w-screen-sm 2xl:max-w-screen-md">
+        <div className="flex flex-col items-start justify-center gap-32 h-full w-screen max-w-screen-2xl 2xl:pt-10 xl:max-w-screen-sm 2xl:max-w-screen-md">
           <Experience/>
           <Recommendations/>
           <Skills/>

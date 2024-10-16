@@ -6,7 +6,7 @@ const Rights = () => {
     const t = useTranslations("Rights")
 
   return (
-    <div className='w-full h-full flex flex-col justify-center gap-5 items-center xl:justify-start xl:items-start pb-20 px-2'>
+    <div className='w-full h-full flex flex-col justify-center  gap-5 items-center xl:justify-start xl:items-start pb-20 px-5 xl:px-2'>
 
       
         <p className="span-sm text-wrap xl:w-8/12">
