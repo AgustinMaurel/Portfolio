@@ -7,7 +7,7 @@ import { ExperienceCard } from "@/types";
         key: "musure",
         description : "description",
         tecs : ["TailwindCSS", "ThreeJS", "Web3", "Firebase", "Moralis", "React"],
-        begin: "Card1",
+        begin: "begin",
         final: "final"
         },
     {
