@@ -17,8 +17,8 @@
      "Experience":{
         "title":"Experience",
         "about":"About me",
-        "description": "Welcome to my portfolio, after 6 years working in commerce in 2020 I decided to venture into this world of programming, going from taking classes to giving them and accompanying students in their study and human process being TA's (teaching assistant). After that I had the privilege to work for start ups from their birth to product conception.",
-        "description2":"I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood.",
+        "description": "Welcome to my portfolio, since I immersed myself in this world I had the privilege to study, learn, teach and accompany new students until the development of a start up from its inception to its conception.",
+        "description2":"What I enjoy most is learning how to create software by working as a team to get to the point where design and functionality come together: things that look good but are also well built under the hood”,",
         "musure":{
             "title": "Front-end Dev MUSURE world",
             "description":"Development of a 3D creation tool focused on helping content creators and gamers to monetize their work, working together with design team, economics, product through SCRUM methodology In charge of the frontend.",
@@ -53,7 +53,7 @@
     },
     "Skills":{
         "title": "Skills",
-        "intro": "In my career I have learned the following technical skills for the development of solutions and overall also to work in a team using agile methodologies and developing my interpersonal skills.",
+        "intro": "In my career I have learned the following soft skills and techniques for solution development and teamwork.",
         "hard": "Tech Skills",
         "soft": "Soft Skills",
         "softSkills":{

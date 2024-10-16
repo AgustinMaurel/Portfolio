@@ -12,13 +12,13 @@
         "pretitle":"Soy",
         "title": "Agustin Maurel",
         "subtitle": "Desarrollador Front-end",
-        "description": "Desarrollador front-end con conocimientos full stack, pero con mucha inclinacion y amor por el front-end. Me gusta trabajar en equipo, compartir ideas para aprender y  desarrollar un producto que contribuya a resolver cualquier problema o necesidad de las personas."
+        "description": "Desarrollador front-end con conocimientos full stack, con mucha inclinacion y amor por el front-end."
      },
      "Experience":{
         "title":"Experiencia",
         "about":"Sobre mi",
-        "description": "Bienvenidx a mi portfolio, despues de 6 años trabajando en comercio  en 2020 decidi incursionar en este mundo de la programacion pasando por tomar clases a darlas y a acompañar a estudiantes en su proceso tanto de estudio como humano siendo TA's (teaching assistant). Luego de esto tuve el privilegio de trabajar para start ups desde su nacimiento hasta la concepción de producto.",
-        "description2":"Lo que más disfruto es crear software en el punto donde se unen el diseño y la funcionalidad: cosas que se ven bien pero que también están bien construidas por detras.",
+        "description": "Bienvenidx a mi portfolio, desde que me sumergi en este mundo tuve el privilegio de estudiar aprender dar clases y acompañar nuevos alumnos hasta el desarrollo de una start up desde su inicio hasta su concepcion.",
+        "description2":"Lo que más disfruto es aprender creando software mediante el trabajo en equipo  para llegar punto donde se unen el diseño y la funcionalidad: cosas que se ven bien pero que también están bien construidas por detras.",
         "musure":{
             "title": "Front-end Dev MUSURE world",
             "description":"Desarrollo de una herramienta de creación 3D enfocada en ayudar a creadores de contenido y gamers a monetizar su trabajo.Trabajo en conjunto con equipo de diseño, economía, producto mediante metodologia SCRUM A cargo del frontend.",
@@ -28,8 +28,8 @@
         "henry":{
             "title": "Full-Stack Teach-Assistant",
             "description":"Asistente de profesor de Full-Stack, asistente de bootcamp para estudiantes full-stack. Experiencia donde tuve la oportunidad de coordinar e integrar grupos de estudio, orientar y asistir en la resolucion de problemas y promover el trabajo grupal. Tambien pude aportar ideas para la mejora del bootcamp.",            
-            "begin":"Nov 2021",
-            "final": "Oct 2022"
+            "begin":"Sep 2021",
+            "final": "Ene 2022"
         }
      },
      "Recommendations":{
@@ -53,7 +53,7 @@
     },
     "Skills":{
         "title": "Habilidades",
-        "intro": "En mi carrera he aprendido las siguientes habilidades técnicas para el desarrollo de soluciones  y en conjunto también a trabajar en equipo empleando metodologías ágiles y desarrollando mis capacidades interpersonales.",
+        "intro": "En mi carrera he aprendido las siguientes habilidades blandas y técnicas para el desarrollo de soluciones  y el trabajo en equipo",
         "hard": "Habilidades Tecnicas",
         "soft": "Habilidades Blandas",
         "softSkills":{
