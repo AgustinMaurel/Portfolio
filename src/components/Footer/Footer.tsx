@@ -28,7 +28,7 @@ export default function Footer(){
                 </a>
             </div>
 
-            <a target="_blank" href="https://drive.google.com/drive/folders/1b_pelGR7aSNqiWeGMUwMtLDzkT_NYs2L?usp=drive_link" className="w-full flex justify-start gap-1 items-end">
+            <a target="_blank" href="https://drive.google.com/file/d/1OunkWRqPYAOYvCrVdfF87tG2zlFcOJX0/view?usp=drive_link" className="w-full flex justify-start gap-1 items-end">
                 <span className="text-sm">{t('download')}</span>
                 <TbFileCv className={classIcons}/>
             </a>
